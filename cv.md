@@ -1,5 +1,11 @@
-% Curriculum Vitae
-% Steven Tilley
+---
+title: Curriculum Vitae
+author: Steven Tilley
+documentclass: article
+geometry:
+	- margin=1in
+urlcolor: blue
+---
 
 PhD Candidate  
 AIAI Lab, Johns Hopkins University  
@@ -18,30 +24,31 @@ Email: [steventilleyii@gmail.com](mailto:steventilleyii@gmail.com)
 Education
 =========
 
-+---------------------+----------------------------------------------------------------------------------------------------+
-| **Graduate School** |                                                                                                    |
-+---------------------+----------------------------------------------------------------------------------------------------+
-| 8/2012-present      | PhD Program in the Department of Biomedical Engineering, Johns Hopkins University, Baltimore, MD.  |
-+---------------------+----------------------------------------------------------------------------------------------------+
-| **Undergraduate**   |                                                                                                    |
-+---------------------+----------------------------------------------------------------------------------------------------+
-| 8/2008-01/2012      | BS in Biological Engineering, Cornell University, Ithaca, NY                                       |
-+---------------------+----------------------------------------------------------------------------------------------------+
+-------------------- --------------------------------------------------------------------------------------------------
+**Graduate School**                                                                                                  
+
+8/2012-present       PhD Program in the Department of Biomedical Engineering
+                     Johns Hopkins University, Baltimore, MD.
+
+**Undergraduate**                                                                                                    
+
+8/2008-01/2012       BS in Biological Engineering, Cornell University, Ithaca, NY                                     
+-------------------- --------------------------------------------------------------------------------------------------
 
 Professional Experience
 =======================
 
-+------------------+--------------------------------------------------------------------+
-| 07/2013-present  | PhD Research, I-STAR Lab and AIAI Lab (Supervisor Web Stayman)     |
-+------------------+--------------------------------------------------------------------+
-| 03/2013-07/2013  | Rotation Project, I-STAR Lab (Supervisor Wociech Zbijewski)        |
-+------------------+--------------------------------------------------------------------+
-| 10/2012-03/2013  | Rotation Project, Trayanova Lab (Supervisor Natalia Trayanova      |
-+------------------+--------------------------------------------------------------------+
-| 01/2012-07/2012  | Laboratory Technician, Schaffer Lab (Supervisor Chris Schaffer)    |
-+------------------+--------------------------------------------------------------------+
-| 11/2009-01/2012  | Undergraduate Researcher, Schaffer Lab (Supervisor Chris Schaffer) |
-+------------------+--------------------------------------------------------------------+
+-----------------  -------------------------------------------------------------------
+07/2013-present    PhD Research, I-STAR Lab and AIAI Lab (Supervisor Web Stayman)     
+
+03/2013-07/2013    Rotation Project, I-STAR Lab (Supervisor Wociech Zbijewski)        
+
+10/2012-03/2013    Rotation Project, Trayanova Lab (Supervisor Natalia Trayanova      
+
+01/2012-07/2012    Laboratory Technician, Schaffer Lab (Supervisor Chris Schaffer)    
+
+11/2009-01/2012    Undergraduate Researcher, Schaffer Lab (Supervisor Chris Schaffer) 
+-----------------  -------------------------------------------------------------------
 
 Journal Publications
 ====================

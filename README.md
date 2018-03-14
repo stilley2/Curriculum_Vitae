@@ -12,17 +12,17 @@ Email:
 
 # Education
 
-|                     |                                                                                                   |
-| ------------------- | ------------------------------------------------------------------------------------------------- |
-| **Graduate School** |                                                                                                   |
-| 8/2012-present      | PhD Program in the Department of Biomedical Engineering, Johns Hopkins University, Baltimore, MD. |
-| **Undergraduate**   |                                                                                                   |
-| 8/2008-01/2012      | BS in Biological Engineering, Cornell University, Ithaca, NY                                      |
+|                     |                                                                                                  |
+| :------------------ | ------------------------------------------------------------------------------------------------ |
+| **Graduate School** |                                                                                                  |
+| 8/2012-present      | PhD Program in the Department of Biomedical Engineering Johns Hopkins University, Baltimore, MD. |
+| **Undergraduate**   |                                                                                                  |
+| 8/2008-01/2012      | BS in Biological Engineering, Cornell University, Ithaca, NY                                     |
 
 # Professional Experience
 
 |                 |                                                                    |
-| --------------- | ------------------------------------------------------------------ |
+| :-------------- | :----------------------------------------------------------------- |
 | 07/2013-present | PhD Research, I-STAR Lab and AIAI Lab (Supervisor Web Stayman)     |
 | 03/2013-07/2013 | Rotation Project, I-STAR Lab (Supervisor Wociech Zbijewski)        |
 | 10/2012-03/2013 | Rotation Project, Trayanova Lab (Supervisor Natalia Trayanova      |
