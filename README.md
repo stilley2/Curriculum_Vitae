@@ -110,7 +110,7 @@ cone-beam CT with blur and correlated noise models” *SPIE 9783 Medical
 Imaging 2016: Physics of Medical Imaging* Vol: 9783, pp: 97830R-97830R-6
 DOI: [10.1117/12.2216126](https://doi.org/10.1117/12.2216126) PMCID:
 [PMC4837455](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4837455)
-[link]('https://www.spiedigitallibrary.org/conference-proceedings-of-spie/9783/1/Nonlinear-statistical-reconstruction-for-flat-panel-cone-beam-CT-with/10.1117/12.2216126.short')
+[link](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/9783/1/Nonlinear-statistical-reconstruction-for-flat-panel-cone-beam-CT-with/10.1117/12.2216126.short)
 
 Bares, A., **Tilley, S.**, Doerschuk, P. S., and Schaffer, C. B.
 **(2015)** “Hyperspectral Multiphoton Microscopy: Demonstration of

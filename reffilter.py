@@ -90,6 +90,7 @@ def _fmt_arxiv(arxiv):
 
 def _fmt_url(url):
     if url:
+        url = url.strip("'")
         return '[link]({0}) '.format(url)
     else:
         return ''
