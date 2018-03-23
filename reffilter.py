@@ -88,6 +88,13 @@ def _fmt_arxiv(arxiv):
         return ''
 
 
+def _fmt_url(url):
+    if url:
+        return '[link]({0}) '.format(url)
+    else:
+        return ''
+
+
 def _sort_key(ref):
     issued = ref['issued'][0]
     return datetime(issued['year'], issued.get('month', 1), issued.get('day', 1))
@@ -122,6 +129,7 @@ if __name__ == '__main__':
                     print(_fmt_doi(ref.get('DOI', '')), end='')
                     print(_fmt_pmcid(ref.get('PMCID', '')), end='')
                     print(_fmt_arxiv(ref.get('arXiv', '')), end='')
+                    print(_fmt_url(ref.get('URL', '')), end='')
 
                     print('\n\n', end='')
         else:
