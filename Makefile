@@ -2,11 +2,14 @@
 
 all : README.md cv.html cv.pdf
 
-README.md : cv.md
-	pandoc cv.md --to gfm > README.md
+cvproc.md : cv.md reffilter.py
+	python reffilter.py < cv.md > cvproc.md
 
-cv.html : cv.md
-	pandoc cv.md --to html -s > cv.html
+README.md : cvproc.md
+	pandoc cvproc.md --to gfm > README.md
+
+cv.html : cvproc.md
+	pandoc cvproc.md --to html -s > cv.html
 
 cv.pdf : cv.md
-	pandoc cv.md --to latex -o cv.pdf
+	pandoc cvproc.md --to latex -o cv.pdf

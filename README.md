@@ -25,131 +25,147 @@ Email:
 | :-------------- | :----------------------------------------------------------------- |
 | 07/2013-present | PhD Research, I-STAR Lab and AIAI Lab (Supervisor Web Stayman)     |
 | 03/2013-07/2013 | Rotation Project, I-STAR Lab (Supervisor Wociech Zbijewski)        |
-| 10/2012-03/2013 | Rotation Project, Trayanova Lab (Supervisor Natalia Trayanova      |
+| 10/2012-03/2013 | Rotation Project, Trayanova Lab (Supervisor Natalia Trayanova)     |
 | 01/2012-07/2012 | Laboratory Technician, Schaffer Lab (Supervisor Chris Schaffer)    |
 | 11/2009-01/2012 | Undergraduate Researcher, Schaffer Lab (Supervisor Chris Schaffer) |
 
 # Journal Publications
 
-  - **Tilley II, Steven**, Siewerdsen, Jeffrey H., and Stayman, J.
-    Webster. (2016) “Model-Based Iterative Reconstruction for Flat-Panel
-    Cone-Beam CT with Focal Spot Blur, Detector Blur, and Correlated
-    Noise”. In: *Physics in Medicine and Biology* 61.1, p. 296.
-    [doi: 10.1088/0031-9155/61/1/296](https://doi.org/10.1088/0031-9155/61/1/296)
-    [arXiv: 1706.05418](https://arxiv.org/abs/1706.05418) [PMCID:
-    PMC5011041](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5011041/)
+**Tilley, S.**, Jacobson, M., Cao, Q., Brehler, M., Sisniega, A.,
+Zbijewski, W., and Stayman, J. W. **(2017)** “Penalized-Likelihood
+Reconstruction with High-Fidelity Measurement Models for High-Resolution
+Cone-Beam Imaging” *IEEE Transactions on Medical Imaging* Vol: PP, pp:
+1-1 DOI:
+[10.1109/TMI.2017.2779406](https://doi.org/10.1109/TMI.2017.2779406)
+arXiv: [1712.05297](https://arxiv.org/abs/1712.05297)
 
-  - **Tilley, S.**, Jacobson, M., Cao, Q., Brehler, M., Sisniega, A.,
-    Zbijewski, W., and Stayman, J. W. (2017) “Penalized-Likelihood
-    Reconstruction with High-Fidelity Measurement Models for
-    High-Resolution Cone-Beam Imaging.” In: *IEEE Transactions on
-    Medical Imaging* PP.99, pp. 1–1.
-    [doi: 10.1109/TMI.2017.2779406](https://doi.org/10.1109/TMI.2017.2779406)
-    [arxiv: 1712.05297](https://arxiv.org/abs/1712.05297)
+**Tilley II, S.**, Siewerdsen, J. H., and Stayman, J. W. **(2016)**
+“Model-based iterative reconstruction for flat-panel cone-beam CT with
+focal spot blur, detector blur, and correlated noise” *Physics in
+Medicine and Biology* Vol: 61, pp: 296 DOI:
+[10.1088/0031-9155/61/1/296](https://doi.org/10.1088/0031-9155/61/1/296)
+PMCID:
+[PMC5011041](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5011041)
+arXiv: [1706.05418](https://arxiv.org/abs/1706.05418)
 
 # Conference Proceedings
 
-  - Zbijewski, Wojciech, Xu, Jennifer, **Tilley II, Steven**, Stayman, J
-    Webster, Taguchi, Katsuyuki, Fredenberg, Erik, and Siewerdsen,
-    Jeffrey H. (2013) “Volumetric imaging with sparse arrays of photon
-    counting silicon strip detectors”. In: *Proc. of Fully 3D Image
-    Reconstruction* pp. 276–9.
-    [download](http://istar.jhu.edu/pdf/Zbijewski_Fully3D2013_PhotonCounting.pdf)
+**Tilley II, S.**, Sisniega, A., Siewerdsen, J. H., and Stayman, J. W.
+**(2018)** “High-Fidelity Modeling of Detector Lag and Gantry Motion in
+CT Reconstruction” *Proc. 5th Intl. Mtg. on image formation in X-ray CT*
+Vol: accepted,
 
-  - Stayman, J Webster, **Tilley II, Steven**, and Siewerdsen, Jeffrey
-    H. (2014) “Integration of component knowledge in
-    penalized-likelihood reconstruction with morphological and spectral
-    uncertainties”. In: *Conference proceedings/International Conference
-    on Image Formation in X-Ray Computed Tomography*. p. 111. [PMCID:
-    PMC4211110](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4211110)
+Stayman, J. W., and **Tilley II, S.** **(2018)** “Model-based
+multi-material decomposition using spatial-spectral filters” *Proc. 5th
+Intl. Mtg. on image formation in X-ray CT* Vol: accepted,
 
-  - Stayman, J Webster, Zbijewski, Wojciech, **Tilley, Steven**, and
-    Siewerdsen, Jeffrey. (2014) “Generalized least-squares CT
-    reconstruction with detector blur and correlated noise models”. In:
-    *Medical Imaging 2014: Physics of Medical Imaging. International
-    Society for Optics and Photonics* Vol. 9033.
-    [doi: 10.1117/12.2043067](https://doi.org/10.1117/12.2043067)
-    [PMCID:
-    PMC4201055](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4201055)
+Zbijewski, W., Cao, Q., Brehler, M., **Tilley II, S.**, Sisniega, A.,
+Stayman, J. W., and Siewerden, J. H. **(2018)** “High-Resolution Imaging
+of Bone Health” *Bulletin of the American Physical Society* *American
+Physical Society*
 
-  - **Tilley II, Steven**, Siewerdsen, Jeffrey H, and Stayman, J
-    Webster. (2014) “Iterative CT reconstruction using models of source
-    and detector blur and correlated noise”. In: *Conference
-    proceedings/International Conference on Image Formation in X-Ray
-    Computed Tomography.* p. 363. [PMCID:
-    PMC4207223](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4207223)
+**Tilley II, S.**, Zbijewski, W., and Stayman, J. W. **(2018)** “A
+General CT Reconstruction Algorithm for Model-Based Material
+Decomposition”
 
-  - Bares, Amanda, **Tilley, Steven**, Doerschuk, Peter S, and Schaffer,
-    Chris B. (2015) “Hyperspectral Multiphoton Microscopy: Demonstration
-    of 48-channel Imaging In Vivo”. In: *Frontiers in Optics. Optical
-    Society of America*.
-    [doi: 10.1364/FIO.2015.FTu2D.5](https://doi.org/10.1364/FIO.2015.FTu2D.5)
+**Tilley II, S.**, Zbijewski, W., and Stayman, J. W. **(2017)**
+“High-Fidelity Modeling of Shift-Variant Focal-Spot Blur for
+High-Resolution CT” *Int’l Mtg. Fully 3D Image Recon. in Radiology and
+Nuc. Med.* pp: 752-759 arXiv:
+[1706.08946](https://arxiv.org/abs/1706.08946)
 
-  - **Tilley II, Steven**, Siewerdsen, Jeffrey H, and Stayman, J
-    Webster. (2015) “Generalized Penalized Weighted Least-Squares
-    Reconstruction for Deblurred Flat-Panel CBCT”. In: *Int’l Mtg. Fully
-    3D Image Recon. in Radiology and Nuc. Med.*
-    [download](http://aiai.jhu.edu/papers/Fully3D2015_tilley.pdf)
+Zhang, X., **Tilley, S.**, Xu, S., Mathews, A., McVeigh, E. R., and
+Stayman, J. W. **(2017)** “Deformable Known Component Model-Based
+Reconstruction for Coronary CT Angiography” *SPIE Medical Imaging*
+*International Society for Optics and Photonics* pp: 1013213–1013213
+DOI: [10.1117/12.2255303](https://doi.org/10.1117/12.2255303)
 
-  - Zbijewski, Wojciech, Cao, Qian, **Tilley 2nd, Steven**, Sisniega,
-    Alejandro, Stayman, J Webster, Yorkston, John, and Siewerden,
-    Jeffrey H. (2015) “Quantitative Assessment Of Bone And Joint Health
-    On A Dedicated Extremities Cone-Beam CT System”. In: *International
-    journal of computer assisted radiology and surgery 10.Suppl 1* S29.
-    [PMCID:
-    PMC4451217](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4451217)
+Bares, A., Pender, M. A., Mejooli, M. A., **Tilley, S.**, Chen, K. E.,
+Dong, J., Doerschuk, P. C., and Schaffer, C. B. **(2016)**
+“Hyperspectral Imaging in Live Mouse Cortex Using a 48-Channel
+Multiphoton Microscope” *Frontiers in Optics 2016 (2016), paper FTh5D.5*
+*Optical Society of America* pp: FTh5D.5 DOI:
+[10.1364/FIO.2016.FTh5D.5](https://doi.org/10.1364/FIO.2016.FTh5D.5)
 
-  - Bares, Amanda, Pender, Mitchell A, Mejooli, Menansili A, **Tilley,
-    Steven**, Chen, Kuang E, Dong, Jingyuan, Doerschuk, Peter C, and
-    Schaffer, Chris B. (2016) “Hyperspectral Imaging in Live Mouse
-    Cortex Using a 48-Channel Multiphoton Microscope”. In: *Frontiers in
-    Optics. Optical Society of America.*
-    [doi: 10.1364/FIO.2016.FTh5D.5](https://doi.org/10.1364/FIO.2016.FTh5D.5)
+Mathews, A. J., **Tilley, S.**, Gang, G., Kawamoto, S., Zbijewski, W.,
+Siewerdsen, J. H., Levinson, R., and Stayman, J. W. **(2016)** “Design
+of dual multiple aperture devices for dynamical fluence field modulated
+CT” *Proc. 4th Intl. Mtg. on image formation in X-ray CT* PMCID:
+[PMC5370167](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5370167)
 
-  - Mathews, Aswin John, **Tilley II, Steven**, Gang, Grace, Kawamoto,
-    Satomi, Zbijewski, Wojciech, Siewerdsen, Jeffrey H, Levinson,
-    Reuven, and Stayman, J Webster. (2016) “Design of dual multiple
-    aperture devices for dynamical fluence field modulated CT”. In:
-    *Conference proceedings. International Conference on Image Formation
-    in X-Ray Computed Tomography.* p. 29 [PMCID:
-    PMC5370167](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5370167)
+**Tilley II, S.**, Zbijewski, W., Siewerdsen, J. H., and Stayman, J. W.
+**(2016)** “Modeling shift-variant X-ray focal spot blur for
+high-resolution flat-panel cone-beam CT” *Proc. 4th Intl. Mtg. on image
+formation in X-ray CT* PMCID:
+[PMC5370169](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5370169)
+arXiv: [1610.05288](https://arxiv.org/abs/1610.05288)
 
-  - **Tilley II, Steven**, Zbijewski, Wojciech, Siewerdsen, Jeffrey H,
-    and Stayman, J Webster. (2016) “Modeling shift-variant X-ray focal
-    spot blur for high-resolution flat-panel cone-beam CT”. In:
-    *Conference proceedings. International Conference on Image Formation
-    in X-Ray Computed Tomography.* p. 463. [PMCID:
-    PMC5370169](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5370169)
-    arXiv:1610.05288
+**Tilley II, S.**, Siewerdsen, J. H., Zbijewski, W., and Stayman, J. W.
+**(2016)** “Nonlinear statistical reconstruction for flat-panel
+cone-beam CT with blur and correlated noise models” *SPIE 9783 Medical
+Imaging 2016: Physics of Medical Imaging* Vol: 9783, pp: 97830R-97830R-6
+DOI: [10.1117/12.2216126](https://doi.org/10.1117/12.2216126) PMCID:
+[PMC4837455](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4837455)
 
-  - **Tilley, Steven**, Siewerdsen, Jeffrey H, Zbijewski, Wojciech, and
-    Stayman, J Webster. (2016) “Nonlinear statistical reconstruction for
-    flat-panel cone-beam CT with blur and correlated noise models”. In:
-    *Medical Imaging 2016: Physics of Medical Imaging. International
-    Society for Optics and Photonics.* Vol. 9783.
-    [doi: 10.1117/12.2216126](https://doi.org/10.1117/12.2216126)
-    [PMCID:
-    PMC4837455](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4837455)
+Bares, A., **Tilley, S.**, Doerschuk, P. S., and Schaffer, C. B.
+**(2015)** “Hyperspectral Multiphoton Microscopy: Demonstration of
+48-channel Imaging In Vivo” *Frontiers in Optics 2015* *Optical Society
+of America* pp: FTu2D.5 DOI:
+[10.1364/FIO.2015.FTu2D.5](https://doi.org/10.1364/FIO.2015.FTu2D.5)
 
-  - **Tilley II, Steven**, Zbijewski, Wojciech, and Stayman, J. Webster.
-    (2017) “High-Fidelity Modeling of Shift-Variant Focal-Spot Blur for
-    High-Resolution CT”. In: *The 14th International Meeting on Fully
-    Three-Dimensional Image Reconstruction in Radiology and Nuclear
-    Medicine.* p. 752–759
-    [arxiv: 1706.08946](https://arxiv.org/abs/1706.08946)
+Zbijewski, W., Cao, Q., **Tilley, S.**, Sisniega, A., Stayman, J. W.,
+Yorkston, J., and Siewerden, J. H. **(2015)** “Quantitative Assessment
+Of Bone And Joint Health On A Dedicated Extremities Cone-Beam CT System”
+*International journal of computer assisted radiology and surgery* Vol:
+10, pp: S29-S31 PMCID:
+[PMC4451217](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4451217)
 
-  - Zhang, X, **Tilley, S**, Xu, S, Mathews, A, McVeigh, ER, and
-    Stayman, JW. (2017) “Deformable known component model-based
-    reconstruction for coronary CT angiography”. In: *Medical Imaging
-    2017: Physics of Medical Imaging. International Society for Optics
-    and Photonics.* Vol. 10132.
-    [doi: 10.1117/12.2255303](https://doi.org/10.1117/12.2255303)
+**Tilley II, S.**, Siewerdsen, J. H., and Stayman, J. W. **(2015)**
+“Generalized Penalized Weighted Least-Squares Reconstruction for
+Deblurred Flat-Panel CBCT” *Int’l Mtg. Fully 3D Image Recon. in
+Radiology and Nuc. Med.*
 
-  - Zbijewski, Wojciech, Cao, Qian, Brehler, Michael, **Tilley II,
-    Steven**, Sisniega, Alejandro, Stayman, J Webster, and Siewerdsen,
-    Jeffrey. (2018) “High-Resolution Imaging of Bone Health”. In:
-    *Bulletin of the American Physical
-Society*
+**Tilley II, S.**, Siewerdsen, J. H., and Stayman, J. W. **(2014)**
+“Iterative CT Reconstruction using Models of Source and Detector Blur
+and Correlated Noise” *Proc. 3rd Intl. Mtg. on image formation in X-ray
+CT* pp: 363-367 PMCID:
+[PMC4207223](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4207223)
+
+Stayman, J. W., Zbijewski, W., **Tilley II, S.**, and Siewerdsen, J.
+**(2014)** “Generalized Least-Squares CT Reconstruction with Detector
+Blur and Correlated Noise Models” *Proc. SPIE* pp: 903335-903335-6 DOI:
+[10.1117/12.2043067](https://doi.org/10.1117/12.2043067) PMCID:
+[PMC4201055](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4201055)
+
+Stayman, J. W., **Tilley, S.**, and Siewerdsen, J. H. **(2014)**
+“Integration of Component Knowledge in Penalized-Likelihood
+Reconstruction with Morphological and Spectral Uncertainties”
+*International Conference on Image Formation in X-Ray Computed
+Tomography. International Conference on Image Formation in X-Ray
+Computed Tomography* Vol: 2014, pp: 111-115 PMCID:
+[PMC4211110](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4211110)
+
+Zbijewski, W., Xu, J., **Tilley II, S.**, Stayman, J. W., Taguchi, K.,
+Fredenberg, E., and Siewerdsen, J. H. **(2013)** “Volumetric Imaging
+with Sparse Arrays of Photon Counting Silicon Strip Detectors” *Int’l
+Mtg. Fully 3D Image Recon. in Radiology and Nuc. Med.* pp: 276-279
+
+# Talks
+
+Zbijewski, W., Cao, Q., **Tilley II, S.**, Brehler, M., Sisniega, A.,
+Stayman, J. W., and Siewerden, J. H. **(2018)** “Quantitative Cone-Beam
+CT: New Technologies, Algorithms, and Applications in Orthopedic
+Imaging”
+
+Bares, A. J., **Tilley, S.**, Mejooli, M. A., Pender, M. A., Doerschuk,
+P. C., and Schaffer, C. B. **(2016)** “In vivo imaging of multiple cell
+types in murine cortex using 48-channel hyperspectral multiphoton
+microscopy”
+
+**Tilley II, S.**, Siewerdsen, J. H., and Stayman, J. W. **(2015)**
+“High Resolution CBCT with Blur and Correlated Noise Models in a
+Non-linear Reconstruction
+Algorithm”
 
 # Funding
 
