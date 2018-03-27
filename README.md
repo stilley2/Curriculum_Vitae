@@ -120,7 +120,8 @@ Bares, A., **Tilley, S.**, Doerschuk, P. S., and Schaffer, C. B.
 Zbijewski, W., Cao, Q., **Tilley, S.**, Sisniega, A., Stayman, J. W.,
 Yorkston, J., and Siewerden, J. H. **(2015)** “Quantitative Assessment
 Of Bone And Joint Health On A Dedicated Extremities Cone-Beam CT System”
-Vol: 10, pp: S29-S31 PMCID:
+*International journal of computer assisted radiology and surgery* Vol:
+10, pp: S29-S31 PMCID:
 [PMC4451217](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4451217)
 [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4451217/)
 

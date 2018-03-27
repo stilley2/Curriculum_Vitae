@@ -278,7 +278,7 @@ references:
   URL: http://aiai.jhu.edu/papers/Fully3D2015_tilley.pdf
 
 - id: ZbijewskiQuantitativeAssessmentBone2015
-  type: article-journal
+  type: paper-conference
   title: >-
     Quantitative Assessment Of Bone And Joint Health On A Dedicated Extremities
     Cone-Beam CT System
