@@ -1,6 +1,6 @@
 .PHONY: all
 
-all : README.md cv.html cv.pdf cv.odf
+all : README.md cv.html cv.pdf cv.odt cv.jats
 
 cvproc.md : cv.md reffilter.py
 	python reffilter.py < cv.md > cvproc.md
@@ -14,5 +14,8 @@ cv.html : cvproc.md
 cv.pdf : cvproc.md
 	pandoc cvproc.md --to latex -o cv.pdf
 
-cv.odf : cvproc.md
+cv.odt : cvproc.md
 	pandoc cvproc.md --to odt -o cv.odt
+
+cv.jats : cvproc.md
+	pandoc cvproc.md --to jats -o cv.jats

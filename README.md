@@ -169,6 +169,13 @@ Stayman, J. W., and Siewerden, J. H. **(2018)** “Quantitative Cone-Beam
 CT: New Technologies, Algorithms, and Applications in Orthopedic
 Imaging”
 
+**Tilley II, S.** **(2018)** “Improving Image Quality and Accuracy in
+Flat-Panel Cone-Beam CT Using Model-Based Iterative Reconstruction with
+High-Fidelity System and Noise Models”
+
+**Tilley II, S.** **(2018)** “A General CT Reconstruction Algorithm for
+Model-Based Material Decomposition”
+
 Bares, A. J., **Tilley, S.**, Mejooli, M. A., Pender, M. A., Doerschuk,
 P. C., and Schaffer, C. B. **(2016)** “In vivo imaging of multiple cell
 types in murine cortex using 48-channel hyperspectral multiphoton

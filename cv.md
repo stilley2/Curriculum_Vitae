@@ -592,6 +592,33 @@ Talks
 ```{=yaml}
 ---
 references:
+- id: Tilley_CIS
+  type: speech
+  title: >-
+    Improving Image Quality and Accuracy in Flat-Panel Cone-Beam CT Using                                                                             
+    Model-Based Iterative Reconstruction with High-Fidelity System and Noise Models
+  event: Center for Imaging Science Seminar Series, Johns Hopkins University
+  author:
+    - family: Tilley II
+      given: Steven
+  issued:
+    - year: 2018
+      month: 3
+      day: 27
+
+- id: Tilley_BME
+  type: speech
+  title: >-
+    A General CT Reconstruction Algorithm for Model-Based Material Decomposition
+  event: BME Seminar Student Presentations, Johns Hopkins University
+  author:
+    - family: Tilley II
+      given: Steven
+  issued:
+    - year: 2018
+      month: 3
+      day: 26
+
 - id: TilleyII2015
   type: speech
   title: >-
