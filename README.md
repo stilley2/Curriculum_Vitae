@@ -160,7 +160,7 @@ with Sparse Arrays of Photon Counting Silicon Strip Detectors” *Int’l
 Mtg. Fully 3D Image Recon. in Radiology and Nuc. Med.* pp: 276-279
 [link](http://www.fully3d.org/2013/Fully3D2013Proceedings.pdf)
 
-### Unpublished
+## Unpublished
 
 Bares, A. J., **Tilley, S.**, Mejooli, M. A., Pender, M. A., Doerschuk,
 P. C., and Schaffer, C. B. **(2016)** “In vivo imaging of multiple cell
@@ -174,7 +174,7 @@ Conference*
 
 # Talks
 
-### Presenter
+## Presenter
 
 **Tilley II, S.** **(2018)** “Improving Image Quality and Accuracy in
 Flat-Panel Cone-Beam CT Using Model-Based Iterative Reconstruction with
@@ -185,7 +185,7 @@ Seminar Series, Johns Hopkins University*
 Model-Based Material Decomposition” *BME Seminar Student Presentations,
 Johns Hopkins University*
 
-### Co-author
+## Co-author
 
 Zbijewski, W., Cao, Q., **Tilley II, S.**, Brehler, M., Sisniega, A.,
 Stayman, J. W., and Siewerden, J. H. **(2018)** “Quantitative Cone-Beam

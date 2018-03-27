@@ -584,7 +584,7 @@ references:
   publisher-place: 'Salt Lake City, Utah, US'
 ---
 
-### Unpublished
+## Unpublished
 
 ---
 references:
@@ -634,7 +634,7 @@ Talks
 =====
 
 
-### Presenter
+## Presenter
 ---
 references:
 - id: Tilley_CIS
@@ -666,7 +666,7 @@ references:
 
 ---
 
-### Co-author
+## Co-author
 ---
 references:
 
