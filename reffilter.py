@@ -105,6 +105,7 @@ if __name__ == '__main__':
 
     _fmt_container = _fmt_emph
     _fmt_publisher = _fmt_emph
+    _fmt_event = _fmt_emph
 
     for l in sys.stdin:
         if l == '---\n':
@@ -119,8 +120,12 @@ if __name__ == '__main__':
                     print(_fmt_authors(ref.get('author', [])), end='')
                     print(_fmt_issued(ref.get('issued', [])), end='')
                     print(_fmt_title(ref.get('title', '')), end='')
-                    print(_fmt_container(ref.get('container-title', '')), end='')
-                    print(_fmt_publisher(ref.get('publisher', '')), end='')
+                    if ref['type'] == 'paper-conference':
+                        print(_fmt_container(ref.get('container-title', '')), end='')
+                    elif ref['type'] == 'article-journal':
+                        print(_fmt_publisher(ref.get('publisher', '')), end='')
+                    elif ref['type'] == 'speech':
+                        print(_fmt_event(ref.get('event', '')), end='')
                     print(_fmt_volume(ref.get('volume', '')), end='')
                     print(_fmt_page(ref.get('page', '')), end='')
                     print(_fmt_doi(ref.get('DOI', '')), end='')

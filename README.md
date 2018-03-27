@@ -34,15 +34,14 @@ Email:
 **Tilley, S.**, Jacobson, M., Cao, Q., Brehler, M., Sisniega, A.,
 Zbijewski, W., and Stayman, J. W. **(2017)** “Penalized-Likelihood
 Reconstruction with High-Fidelity Measurement Models for High-Resolution
-Cone-Beam Imaging” *IEEE Transactions on Medical Imaging* Vol: PP, pp:
-1-1 DOI:
+Cone-Beam Imaging” Vol: PP, pp: 1-1 DOI:
 [10.1109/TMI.2017.2779406](https://doi.org/10.1109/TMI.2017.2779406)
 arXiv: [1712.05297](https://arxiv.org/abs/1712.05297)
 
 **Tilley II, S.**, Siewerdsen, J. H., and Stayman, J. W. **(2016)**
 “Model-based iterative reconstruction for flat-panel cone-beam CT with
-focal spot blur, detector blur, and correlated noise” *Physics in
-Medicine and Biology* Vol: 61, pp: 296 DOI:
+focal spot blur, detector blur, and correlated noise” Vol: 61, pp: 296
+DOI:
 [10.1088/0031-9155/61/1/296](https://doi.org/10.1088/0031-9155/61/1/296)
 PMCID:
 [PMC5011041](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5011041)
@@ -62,14 +61,12 @@ Intl. Mtg. on image formation in X-ray CT* Vol: accepted,
 
 Zbijewski, W., Cao, Q., Brehler, M., **Tilley II, S.**, Sisniega, A.,
 Stayman, J. W., and Siewerden, J. H. **(2018)** “High-Resolution Imaging
-of Bone Health” *Bulletin of the American Physical Society* *American
-Physical Society*
+of Bone Health” *Bulletin of the American Physical Society*
 [link](http://meetings.aps.org/Meeting/MAR18/Session/H32.5)
 
 **Tilley II, S.**, Zbijewski, W., and Stayman, J. W. **(2018)** “A
 General CT Reconstruction Algorithm for Model-Based Material
-Decomposition” *SPIE Medical Imaging* *International Society for Optics
-and Photonics* Vol: 10573, DOI:
+Decomposition” *SPIE Medical Imaging* Vol: 10573, DOI:
 [10.1117/12.2293776](https://doi.org/10.1117/12.2293776)
 
 **Tilley II, S.**, Zbijewski, W., and Stayman, J. W. **(2017)**
@@ -80,16 +77,16 @@ Nuc. Med.* pp: 752-759 arXiv:
 
 Zhang, X., **Tilley, S.**, Xu, S., Mathews, A., McVeigh, E. R., and
 Stayman, J. W. **(2017)** “Deformable Known Component Model-Based
-Reconstruction for Coronary CT Angiography” *SPIE Medical Imaging*
-*International Society for Optics and Photonics* pp: 1013213–1013213
-DOI: [10.1117/12.2255303](https://doi.org/10.1117/12.2255303)
+Reconstruction for Coronary CT Angiography” *SPIE Medical Imaging* pp:
+1013213–1013213 DOI:
+[10.1117/12.2255303](https://doi.org/10.1117/12.2255303)
 [link](http://proceedings.spiedigitallibrary.org/pdfaccess.ashx?url=/data/conferences/spiep/91903/1013213.pdf)
 
 Bares, A., Pender, M. A., Mejooli, M. A., **Tilley, S.**, Chen, K. E.,
 Dong, J., Doerschuk, P. C., and Schaffer, C. B. **(2016)**
 “Hyperspectral Imaging in Live Mouse Cortex Using a 48-Channel
 Multiphoton Microscope” *Frontiers in Optics 2016 (2016), paper FTh5D.5*
-*Optical Society of America* pp: FTh5D.5 DOI:
+pp: FTh5D.5 DOI:
 [10.1364/FIO.2016.FTh5D.5](https://doi.org/10.1364/FIO.2016.FTh5D.5)
 [link](https://www.osapublishing.org/abstract.cfm?uri=FiO-2016-FTh5D.5)
 
@@ -116,16 +113,14 @@ DOI: [10.1117/12.2216126](https://doi.org/10.1117/12.2216126) PMCID:
 
 Bares, A., **Tilley, S.**, Doerschuk, P. S., and Schaffer, C. B.
 **(2015)** “Hyperspectral Multiphoton Microscopy: Demonstration of
-48-channel Imaging In Vivo” *Frontiers in Optics 2015* *Optical Society
-of America* pp: FTu2D.5 DOI:
+48-channel Imaging In Vivo” *Frontiers in Optics 2015* pp: FTu2D.5 DOI:
 [10.1364/FIO.2015.FTu2D.5](https://doi.org/10.1364/FIO.2015.FTu2D.5)
 [link](https://www.osapublishing.org/abstract.cfm?URI=FiO-2015-FTu2D.5)
 
 Zbijewski, W., Cao, Q., **Tilley, S.**, Sisniega, A., Stayman, J. W.,
 Yorkston, J., and Siewerden, J. H. **(2015)** “Quantitative Assessment
 Of Bone And Joint Health On A Dedicated Extremities Cone-Beam CT System”
-*International journal of computer assisted radiology and surgery* Vol:
-10, pp: S29-S31 PMCID:
+Vol: 10, pp: S29-S31 PMCID:
 [PMC4451217](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4451217)
 [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4451217/)
 
@@ -169,11 +164,12 @@ Mtg. Fully 3D Image Recon. in Radiology and Nuc. Med.* pp: 276-279
 Bares, A. J., **Tilley, S.**, Mejooli, M. A., Pender, M. A., Doerschuk,
 P. C., and Schaffer, C. B. **(2016)** “In vivo imaging of multiple cell
 types in murine cortex using 48-channel hyperspectral multiphoton
-microscopy”
+microscopy” *SPIE Photonics Europe*
 
 **Tilley II, S.**, Siewerdsen, J. H., and Stayman, J. W. **(2015)**
 “High Resolution CBCT with Blur and Correlated Noise Models in a
-Non-linear Reconstruction Algorithm”
+Non-linear Reconstruction Algorithm” *The 5th Annual Hopkins Imaging
+Conference*
 
 # Talks
 
@@ -181,17 +177,20 @@ Non-linear Reconstruction Algorithm”
 
 **Tilley II, S.** **(2018)** “Improving Image Quality and Accuracy in
 Flat-Panel Cone-Beam CT Using Model-Based Iterative Reconstruction with
-High-Fidelity System and Noise Models”
+High-Fidelity System and Noise Models” *Center for Imaging Science
+Seminar Series, Johns Hopkins University*
 
 **Tilley II, S.** **(2018)** “A General CT Reconstruction Algorithm for
-Model-Based Material Decomposition”
+Model-Based Material Decomposition” *BME Seminar Student Presentations,
+Johns Hopkins University*
 
 ### Co-author
 
 Zbijewski, W., Cao, Q., **Tilley II, S.**, Brehler, M., Sisniega, A.,
 Stayman, J. W., and Siewerden, J. H. **(2018)** “Quantitative Cone-Beam
 CT: New Technologies, Algorithms, and Applications in Orthopedic
-Imaging”
+Imaging” *SIAM Conference on Imaging
+Science*
 
 # Funding
 
