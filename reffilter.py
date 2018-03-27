@@ -107,18 +107,14 @@ if __name__ == '__main__':
     _fmt_publisher = _fmt_emph
 
     for l in sys.stdin:
-        if l == '```{=yaml}\n':
-            assert sys.stdin.readline() == '---\n'
+        if l == '---\n':
             yamlblock = ''
             for l in sys.stdin:
                 if l == '---\n':
-                    assert sys.stdin.readline() == '```\n'
                     break
                 yamlblock += l
             data = yaml.load(yamlblock)
-            if len(data) != 1 or 'references' not in data.keys():
-                raise RuntimeError
-            else:
+            if len(data) == 1 and 'references' in data.keys():
                 for ref in sorted(data['references'], key=_sort_key, reverse=True):
                     print(_fmt_authors(ref.get('author', [])), end='')
                     print(_fmt_issued(ref.get('issued', [])), end='')
@@ -133,5 +129,9 @@ if __name__ == '__main__':
                     print(_fmt_url(ref.get('URL', '')), end='')
 
                     print('\n\n', end='')
+            else:
+                print('---')
+                print(yamlblock, end='')
+                print('---')
         else:
             print(l, end='')

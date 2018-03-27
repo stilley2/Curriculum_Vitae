@@ -53,7 +53,6 @@ Professional Experience
 Journal Publications
 ====================
 
-```{=yaml}
 ---
 references:
 - id: TilleyII2015a
@@ -118,13 +117,11 @@ references:
     - year: 2017
   arXiv: 1712.05297
 ---
-```
 
 Conference Proceedings
 ======================
 
 
-```{=yaml}
 ---
 references:
 
@@ -583,19 +580,17 @@ references:
       day: 20
   publisher-place: 'Salt Lake City, Utah, US'
 ---
-```
 
 Talks
 =====
 
 
-```{=yaml}
 ---
 references:
 - id: Tilley_CIS
   type: speech
   title: >-
-    Improving Image Quality and Accuracy in Flat-Panel Cone-Beam CT Using                                                                             
+    Improving Image Quality and Accuracy in Flat-Panel Cone-Beam CT Using
     Model-Based Iterative Reconstruction with High-Fidelity System and Noise Models
   event: Center for Imaging Science Seminar Series, Johns Hopkins University
   author:
@@ -684,7 +679,6 @@ references:
       month: 6
   event-place: 'Bologna, Italy'
 ---
-```
 
 
 Funding
