@@ -528,7 +528,8 @@ references:
 - id: tilley_ii_general_2018
   type: paper-conference
   title: A General CT Reconstruction Algorithm for Model-Based Material Decomposition
-  event: SPIE Medical Imaging
+  container-title: SPIE Medical Imaging
+  publisher: International Society for Optics and Photonics
   author:
     - family: Tilley II
       given: Steven
@@ -541,6 +542,8 @@ references:
       month: 2
       day: 10
   publisher-place: 'Houston, TX'
+  volume: 10573
+  DOI: 10.1117/12.2293776
 
 - id: TilleyIIHighFidelityModelingDetector2018
   type: paper-conference
@@ -581,38 +584,10 @@ references:
   publisher-place: 'Salt Lake City, Utah, US'
 ---
 
-Talks
-=====
-
+### Unpublished
 
 ---
 references:
-- id: Tilley_CIS
-  type: speech
-  title: >-
-    Improving Image Quality and Accuracy in Flat-Panel Cone-Beam CT Using
-    Model-Based Iterative Reconstruction with High-Fidelity System and Noise Models
-  event: Center for Imaging Science Seminar Series, Johns Hopkins University
-  author:
-    - family: Tilley II
-      given: Steven
-  issued:
-    - year: 2018
-      month: 3
-      day: 27
-
-- id: Tilley_BME
-  type: speech
-  title: >-
-    A General CT Reconstruction Algorithm for Model-Based Material Decomposition
-  event: BME Seminar Student Presentations, Johns Hopkins University
-  author:
-    - family: Tilley II
-      given: Steven
-  issued:
-    - year: 2018
-      month: 3
-      day: 26
 
 - id: TilleyII2015
   type: speech
@@ -652,6 +627,48 @@ references:
   issued:
     - year: 2016
   publisher-place: 'Brussels, Belgium'
+
+---
+
+Talks
+=====
+
+
+### Presenter
+---
+references:
+- id: Tilley_CIS
+  type: speech
+  title: >-
+    Improving Image Quality and Accuracy in Flat-Panel Cone-Beam CT Using
+    Model-Based Iterative Reconstruction with High-Fidelity System and Noise Models
+  event: Center for Imaging Science Seminar Series, Johns Hopkins University
+  author:
+    - family: Tilley II
+      given: Steven
+  issued:
+    - year: 2018
+      month: 3
+      day: 27
+
+- id: Tilley_BME
+  type: speech
+  title: >-
+    A General CT Reconstruction Algorithm for Model-Based Material Decomposition
+  event: BME Seminar Student Presentations, Johns Hopkins University
+  author:
+    - family: Tilley II
+      given: Steven
+  issued:
+    - year: 2018
+      month: 3
+      day: 26
+
+---
+
+### Co-author
+---
+references:
 
 - id: ZbijewskiQuantitativeConeBeamCT2018
   type: speech

@@ -68,7 +68,9 @@ Physical Society*
 
 **Tilley II, S.**, Zbijewski, W., and Stayman, J. W. **(2018)** “A
 General CT Reconstruction Algorithm for Model-Based Material
-Decomposition”
+Decomposition” *SPIE Medical Imaging* *International Society for Optics
+and Photonics* Vol: 10573, DOI:
+[10.1117/12.2293776](https://doi.org/10.1117/12.2293776)
 
 **Tilley II, S.**, Zbijewski, W., and Stayman, J. W. **(2017)**
 “High-Fidelity Modeling of Shift-Variant Focal-Spot Blur for
@@ -162,19 +164,7 @@ with Sparse Arrays of Photon Counting Silicon Strip Detectors” *Int’l
 Mtg. Fully 3D Image Recon. in Radiology and Nuc. Med.* pp: 276-279
 [link](http://www.fully3d.org/2013/Fully3D2013Proceedings.pdf)
 
-# Talks
-
-Zbijewski, W., Cao, Q., **Tilley II, S.**, Brehler, M., Sisniega, A.,
-Stayman, J. W., and Siewerden, J. H. **(2018)** “Quantitative Cone-Beam
-CT: New Technologies, Algorithms, and Applications in Orthopedic
-Imaging”
-
-**Tilley II, S.** **(2018)** “Improving Image Quality and Accuracy in
-Flat-Panel Cone-Beam CT Using Model-Based Iterative Reconstruction with
-High-Fidelity System and Noise Models”
-
-**Tilley II, S.** **(2018)** “A General CT Reconstruction Algorithm for
-Model-Based Material Decomposition”
+### Unpublished
 
 Bares, A. J., **Tilley, S.**, Mejooli, M. A., Pender, M. A., Doerschuk,
 P. C., and Schaffer, C. B. **(2016)** “In vivo imaging of multiple cell
@@ -183,8 +173,25 @@ microscopy”
 
 **Tilley II, S.**, Siewerdsen, J. H., and Stayman, J. W. **(2015)**
 “High Resolution CBCT with Blur and Correlated Noise Models in a
-Non-linear Reconstruction
-Algorithm”
+Non-linear Reconstruction Algorithm”
+
+# Talks
+
+### Presenter
+
+**Tilley II, S.** **(2018)** “Improving Image Quality and Accuracy in
+Flat-Panel Cone-Beam CT Using Model-Based Iterative Reconstruction with
+High-Fidelity System and Noise Models”
+
+**Tilley II, S.** **(2018)** “A General CT Reconstruction Algorithm for
+Model-Based Material Decomposition”
+
+### Co-author
+
+Zbijewski, W., Cao, Q., **Tilley II, S.**, Brehler, M., Sisniega, A.,
+Stayman, J. W., and Siewerden, J. H. **(2018)** “Quantitative Cone-Beam
+CT: New Technologies, Algorithms, and Applications in Orthopedic
+Imaging”
 
 # Funding
 
