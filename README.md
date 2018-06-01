@@ -165,7 +165,7 @@ DOI:
 PMCID:
 [PMC5011041](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5011041),
 arXiv: [1706.05418](https://arxiv.org/abs/1706.05418),
-[URL](http://stacks.iop.org/0031-9155/61/i=1/a=296)
+[link](http://stacks.iop.org/0031-9155/61/i=1/a=296)
 
 ## Conference Proceedings
 
@@ -173,17 +173,17 @@ arXiv: [1706.05418](https://arxiv.org/abs/1706.05418),
 **(2018)** “High-Fidelity Modeling of Detector Lag and Gantry Motion in
 CT Reconstruction” *Proc. 5th Intl. Mtg. on image formation in X-ray CT*
 pp: 318-322, arXiv: [1805.11631](https://arxiv.org/abs/1805.11631),
-[URL](http://www.ucair.med.utah.edu/CTmeeting/CT2018_Proceedings.pdf)
+[link](http://www.ucair.med.utah.edu/CTmeeting/CT2018_Proceedings.pdf)
 
 Stayman, J. W., and **Tilley II, S.** **(2018)** “Model-based
 multi-material decomposition using spatial-spectral filters” *Proc. 5th
 Intl. Mtg. on image formation in X-ray CT* pp: 102-105,
-[URL](http://www.ucair.med.utah.edu/CTmeeting/CT2018_Proceedings.pdf)
+[link](http://www.ucair.med.utah.edu/CTmeeting/CT2018_Proceedings.pdf)
 
 Zbijewski, W., Cao, Q., Brehler, M., **Tilley II, S.**, Sisniega, A.,
 Stayman, J. W., and Siewerden, J. H. **(2018)** “High-Resolution Imaging
 of Bone Health” *Bulletin of the American Physical Society*
-[URL](http://meetings.aps.org/Meeting/MAR18/Session/H32.5)
+[link](http://meetings.aps.org/Meeting/MAR18/Session/H32.5)
 
 **Tilley II, S.**, Zbijewski, W., and Stayman, J. W. **(2018)** “A
 General CT Reconstruction Algorithm for Model-Based Material
@@ -201,7 +201,7 @@ Stayman, J. W. **(2017)** “Deformable Known Component Model-Based
 Reconstruction for Coronary CT Angiography” *SPIE Medical Imaging* pp:
 1013213–1013213, DOI:
 [10.1117/12.2255303](https://doi.org/10.1117/12.2255303),
-[URL](http://proceedings.spiedigitallibrary.org/pdfaccess.ashx?url=/data/conferences/spiep/91903/1013213.pdf)
+[link](http://proceedings.spiedigitallibrary.org/pdfaccess.ashx?url=/data/conferences/spiep/91903/1013213.pdf)
 
 Bares, A., Pender, M. A., Mejooli, M. A., **Tilley, S.**, Chen, K. E.,
 Dong, J., Doerschuk, P. C., and Schaffer, C. B. **(2016)**
@@ -209,7 +209,7 @@ Dong, J., Doerschuk, P. C., and Schaffer, C. B. **(2016)**
 Multiphoton Microscope” *Frontiers in Optics 2016 (2016), paper FTh5D.5*
 pp: FTh5D.5, DOI:
 [10.1364/FIO.2016.FTh5D.5](https://doi.org/10.1364/FIO.2016.FTh5D.5),
-[URL](https://www.osapublishing.org/abstract.cfm?uri=FiO-2016-FTh5D.5)
+[link](https://www.osapublishing.org/abstract.cfm?uri=FiO-2016-FTh5D.5)
 
 Mathews, A. J., **Tilley, S.**, Gang, G., Kawamoto, S., Zbijewski, W.,
 Siewerdsen, J. H., Levinson, R., and Stayman, J. W. **(2016)** “Design
@@ -231,13 +231,13 @@ Imaging 2016: Physics of Medical Imaging* Vol: 9783, pp:
 97830R-97830R-6, DOI:
 [10.1117/12.2216126](https://doi.org/10.1117/12.2216126), PMCID:
 [PMC4837455](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4837455),
-[URL](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/9783/1/Nonlinear-statistical-reconstruction-for-flat-panel-cone-beam-CT-with/10.1117/12.2216126.short)
+[link](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/9783/1/Nonlinear-statistical-reconstruction-for-flat-panel-cone-beam-CT-with/10.1117/12.2216126.short)
 
 Bares, A., **Tilley, S.**, Doerschuk, P. S., and Schaffer, C. B.
 **(2015)** “Hyperspectral Multiphoton Microscopy: Demonstration of
 48-channel Imaging In Vivo” *Frontiers in Optics 2015* pp: FTu2D.5, DOI:
 [10.1364/FIO.2015.FTu2D.5](https://doi.org/10.1364/FIO.2015.FTu2D.5),
-[URL](https://www.osapublishing.org/abstract.cfm?URI=FiO-2015-FTu2D.5)
+[link](https://www.osapublishing.org/abstract.cfm?URI=FiO-2015-FTu2D.5)
 
 Zbijewski, W., Cao, Q., **Tilley, S.**, Sisniega, A., Stayman, J. W.,
 Yorkston, J., and Siewerden, J. H. **(2015)** “Quantitative Assessment
@@ -245,27 +245,27 @@ Of Bone And Joint Health On A Dedicated Extremities Cone-Beam CT System”
 *International journal of computer assisted radiology and surgery* Vol:
 10, pp: S29-S31, PMCID:
 [PMC4451217](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4451217),
-[URL](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4451217/)
+[link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4451217/)
 
 **Tilley II, S.**, Siewerdsen, J. H., and Stayman, J. W. **(2015)**
 “Generalized Penalized Weighted Least-Squares Reconstruction for
 Deblurred Flat-Panel CBCT” *Int’l Mtg. Fully 3D Image Recon. in
 Radiology and Nuc. Med.*
-[URL](http://aiai.jhu.edu/papers/Fully3D2015_tilley.pdf)
+[link](http://aiai.jhu.edu/papers/Fully3D2015_tilley.pdf)
 
 **Tilley II, S.**, Siewerdsen, J. H., and Stayman, J. W. **(2014)**
 “Iterative CT Reconstruction using Models of Source and Detector Blur
 and Correlated Noise” *Proc. 3rd Intl. Mtg. on image formation in X-ray
 CT* pp: 363-367, PMCID:
 [PMC4207223](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4207223),
-[URL](http://www.ucair.med.utah.edu/CTmeeting/ProceedingsCTMeeting2014.pdf)
+[link](http://www.ucair.med.utah.edu/CTmeeting/ProceedingsCTMeeting2014.pdf)
 
 Stayman, J. W., Zbijewski, W., **Tilley II, S.**, and Siewerdsen, J.
 **(2014)** “Generalized Least-Squares CT Reconstruction with Detector
 Blur and Correlated Noise Models” *Proc. SPIE* pp: 903335-903335-6, DOI:
 [10.1117/12.2043067](https://doi.org/10.1117/12.2043067), PMCID:
 [PMC4201055](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4201055),
-[URL](http://dx.doi.org/10.1117/12.2043067)
+[link](http://dx.doi.org/10.1117/12.2043067)
 
 Stayman, J. W., **Tilley, S.**, and Siewerdsen, J. H. **(2014)**
 “Integration of Component Knowledge in Penalized-Likelihood
@@ -274,13 +274,13 @@ Reconstruction with Morphological and Spectral Uncertainties”
 Tomography. International Conference on Image Formation in X-Ray
 Computed Tomography* Vol: 2014, pp: 111-115, PMCID:
 [PMC4211110](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4211110),
-[URL](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4211110/)
+[link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4211110/)
 
 Zbijewski, W., Xu, J., **Tilley II, S.**, Stayman, J. W., Taguchi, K.,
 Fredenberg, E., and Siewerdsen, J. H. **(2013)** “Volumetric Imaging
 with Sparse Arrays of Photon Counting Silicon Strip Detectors” *Int’l
 Mtg. Fully 3D Image Recon. in Radiology and Nuc. Med.* pp: 276-279,
-[URL](http://www.fully3d.org/2013/Fully3D2013Proceedings.pdf)
+[link](http://www.fully3d.org/2013/Fully3D2013Proceedings.pdf)
 
 ## Unpublished
 
