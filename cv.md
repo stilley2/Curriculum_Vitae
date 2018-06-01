@@ -1,17 +1,18 @@
 ---
-title: Curriculum Vitae
-author: Steven Tilley
+title: Steven Tilley
 documentclass: article
 geometry:
     - margin=1in
 urlcolor: blue
 ---
 
-PhD Candidate  
-AIAI Lab, Johns Hopkins University  
-Baltimore, MD. 21201  
 
-Note: This CV is a work in progress
+Current Position
+================
+
+Ph.D. Candidate  
+AIAI Lab, Johns Hopkins University  
+Baltimore, MD 21205
 
 
 Contact Information
@@ -24,34 +25,162 @@ Email: [steventilleyii@gmail.com](mailto:steventilleyii@gmail.com)
 Education
 =========
 
------------------------ --------------------------------------------------------------------------------------------------
-**Graduate School**                                                                                                  
+----------------  ----------------------------------------------------------------------------------
+2018 (expected)   Ph.D., Department of Biomedical Engineering,
+                  Johns Hopkins University, Baltimore, MD
 
-8/2012-present          PhD Program in the Department of Biomedical Engineering
-                        Johns Hopkins University, Baltimore, MD.
+2012              B.S., Biological Engineering, Cornell University, Ithaca, NY
+----------------  ----------------------------------------------------------------------------------
 
-**Undergraduate**                                                                                                       
-
-8/2008-01/2012          BS in Biological Engineering, Cornell University, Ithaca, NY                                     
------------------------ --------------------------------------------------------------------------------------------------
 
 Professional Experience
 =======================
 
------------------  -------------------------------------------------------------------
-07/2013-present    PhD Research, I-STAR Lab and AIAI Lab (Supervisor Web Stayman)     
+----------------  ----------------------------------------------------------------------------------
+2013-Present      Graduate Researcher, I-STAR Lab and AIAI Lab, Department of Biomedical
+                  Engineering, Johns Hopkins University, Baltimore, MD \
+                  Supervisor: Web Stayman
 
-03/2013-07/2013    Rotation Project, I-STAR Lab (Supervisor Wociech Zbijewski)        
+2013              Graduate Researcher, I-STAR Lab, Department of Biomedical Engineering, Johns
+                  Hopkins University, Baltimore, MD \
+                  Supervisor: Wociech Zbijewski
 
-10/2012-03/2013    Rotation Project, Trayanova Lab (Supervisor Natalia Trayanova)      
+2012-2013         Graduate Researcher, Trayanova Lab, Department of Biomedical Engineering, Johns
+                  Hopkins University, Baltimore, MD \
+                  Supervisor: Natalia Trayanova
 
-01/2012-07/2012    Laboratory Technician, Schaffer Lab (Supervisor Chris Schaffer)    
+2012              Laboratory Technician, Schaffer Lab, Cornell University, Ithaca, NY \
+                  Supervisor: Chris Schaffer
 
-11/2009-01/2012    Undergraduate Researcher, Schaffer Lab (Supervisor Chris Schaffer) 
------------------  -------------------------------------------------------------------
+2009-2012         Undergraduate Researcher, Schaffer Lab, Cornell University, Ithaca, NY \
+                  Supervisor: Chris Schaffer
+----------------  ----------------------------------------------------------------------------------
 
-Journal Publications
+
+Teaching Experience
+===================
+
+----------------  ----------------------------------------------------------------------------------
+2016              Teaching Assistant, Department of Biomedical Engineering, Johns Hopkins
+                  University, Baltimore, MD \
+                  Course: Imaging Instrumentation, Instructor: Web Stayman, 18 students
+
+2015              Teaching Assistant, Department of Biomedical Engineering, Johns Hopkins
+                  University, Baltimore, MD \
+                  Course: Models and Simulations, Instructor: Michael Beer, 108 students
+
+2013              Classroom Volunteer, Friendship Academy of Science and Technology, Baltimore, MD \
+                  Instructor: Paul Nelson
+----------------  ----------------------------------------------------------------------------------
+
+
+Funding Awards
+==============
+
+----------------  ----------------------------------------------------------------------------------
+2017-2019         Model-Based Reconstruction for High-Spatial Resolution Cone-Beam Computed
+                  Tomography \
+                  F31 EB023783 \
+                  National Institute of Biomedical Imaging and Bioengineering
+
+----------------  ----------------------------------------------------------------------------------
+
+
+Honors and Distinctions
+=======================
+
+----------------  ----------------------------------------------------------------------------------
+2017              Travel Award, 14th International Conference on Fully Three-Dimensional Image
+                  Reconstruction in Radiology and Nuclear Medicine
+
+2015              Travel Award, 13th International Conference on Fully Three-Dimensional Image
+                  Reconstruction in Radiology and Nuclear Medicine
+
+2010              Engineering Learning Initiatives Undergraduate Research Award \
+                  "Design and construction of a four-channel two-photon excited fluorescence
+                  microscope"
+----------------  ----------------------------------------------------------------------------------
+
+
+Professional Activities
+=======================
+
+----------------  ----------------------------------------------------------------------------------
+2013              Director, 3rd Annual Hopkins Imaging Conference, Baltimore, MD 
+
+----------------  ----------------------------------------------------------------------------------
+
+
+Invited Talks
+=============
+
+## Presenter
+---
+references:
+- id: Tilley_CIS
+  type: speech
+  title: >-
+    Improving Image Quality and Accuracy in Flat-Panel Cone-Beam CT Using
+    Model-Based Iterative Reconstruction with High-Fidelity System and Noise Models
+  event: Center for Imaging Science Seminar Series, Johns Hopkins University
+  author:
+    - family: Tilley II
+      given: Steven
+  issued:
+    - year: 2018
+      month: 3
+      day: 27
+
+- id: Tilley_BME
+  type: speech
+  title: >-
+    A General CT Reconstruction Algorithm for Model-Based Material Decomposition
+  event: BME Seminar Student Presentations, Johns Hopkins University
+  author:
+    - family: Tilley II
+      given: Steven
+  issued:
+    - year: 2018
+      month: 3
+      day: 26
+
+---
+
+## Co-author
+---
+references:
+
+- id: ZbijewskiQuantitativeConeBeamCT2018
+  type: speech
+  title: >-
+    Quantitative Cone-Beam CT: New Technologies, Algorithms, and Applications in
+    Orthopedic Imaging
+  event: SIAM Conference on Imaging Science
+  author:
+    - family: Zbijewski
+      given: Wojciech
+    - family: Cao
+      given: Qian
+    - family: Tilley II
+      given: Steven
+    - family: Brehler
+      given: Michael
+    - family: Sisniega
+      given: Alejandro
+    - family: Stayman
+      given: J Webster
+    - family: Siewerden
+      given: Jeffrey H
+  issued:
+    - year: 2018
+      month: 6
+  event-place: 'Bologna, Italy'
+---
+
+Publications
 ====================
+
+## Journal Articles
 
 ---
 references:
@@ -118,9 +247,8 @@ references:
   arXiv: 1712.05297
 ---
 
-Conference Proceedings
-======================
 
+## Conference Proceedings
 
 ---
 references:
@@ -551,7 +679,6 @@ references:
     High-Fidelity Modeling of Detector Lag and Gantry Motion in CT
     Reconstruction
   container-title: Proc. 5th Intl. Mtg. on image formation in X-ray CT
-  volume: accepted
   author:
     - family: Tilley II
       given: Steven
@@ -565,12 +692,14 @@ references:
     - year: 2018
       month: 5
       day: 20
+  page: 318-322
+  URL: http://www.ucair.med.utah.edu/CTmeeting/CT2018_Proceedings.pdf
+  arXiv: 1805.11631
 
 - id: StaymanModelbasedmultimaterialdecomposition2018
   type: paper-conference
   title: Model-based multi-material decomposition using spatial-spectral filters
   container-title: Proc. 5th Intl. Mtg. on image formation in X-ray CT
-  volume: accepted
   event: International Conference on Image Formation in X-Ray Computed Tomography
   author:
     - family: Stayman
@@ -582,6 +711,9 @@ references:
       month: 5
       day: 20
   publisher-place: 'Salt Lake City, Utah, US'
+  page: 102-105
+  URL: http://www.ucair.med.utah.edu/CTmeeting/CT2018_Proceedings.pdf
+
 ---
 
 ## Unpublished
@@ -629,87 +761,3 @@ references:
   publisher-place: 'Brussels, Belgium'
 
 ---
-
-Talks
-=====
-
-
-## Presenter
----
-references:
-- id: Tilley_CIS
-  type: speech
-  title: >-
-    Improving Image Quality and Accuracy in Flat-Panel Cone-Beam CT Using
-    Model-Based Iterative Reconstruction with High-Fidelity System and Noise Models
-  event: Center for Imaging Science Seminar Series, Johns Hopkins University
-  author:
-    - family: Tilley II
-      given: Steven
-  issued:
-    - year: 2018
-      month: 3
-      day: 27
-
-- id: Tilley_BME
-  type: speech
-  title: >-
-    A General CT Reconstruction Algorithm for Model-Based Material Decomposition
-  event: BME Seminar Student Presentations, Johns Hopkins University
-  author:
-    - family: Tilley II
-      given: Steven
-  issued:
-    - year: 2018
-      month: 3
-      day: 26
-
----
-
-## Co-author
----
-references:
-
-- id: ZbijewskiQuantitativeConeBeamCT2018
-  type: speech
-  title: >-
-    Quantitative Cone-Beam CT: New Technologies, Algorithms, and Applications in
-    Orthopedic Imaging
-  event: SIAM Conference on Imaging Science
-  author:
-    - family: Zbijewski
-      given: Wojciech
-    - family: Cao
-      given: Qian
-    - family: Tilley II
-      given: Steven
-    - family: Brehler
-      given: Michael
-    - family: Sisniega
-      given: Alejandro
-    - family: Stayman
-      given: J Webster
-    - family: Siewerden
-      given: Jeffrey H
-  issued:
-    - year: 2018
-      month: 6
-  event-place: 'Bologna, Italy'
----
-
-
-Funding
-=======
-
-----------------  ---------------------------------------------------------------------------------------
-03/2017-03/2019   Model-Based Reconstruction for High-Spatial Resolution Cone-Beam Computed Tomography   
-
-                  F31 EB023783  
-
-                  National Institute of Biomedical Imaging and Bioengineering  
-
-                  $44 044 per year  
-
-
-
-----------------  ---------------------------------------------------------------------------------------

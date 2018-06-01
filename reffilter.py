@@ -8,17 +8,17 @@ def _fmt_authors(authors):
         out = '{} '.format(_fmt_author(authors[0]))
     elif len(authors) > 1:
         out = ', '.join(_fmt_author(author) for author in authors[:-1])
-        out += ', and {} '.format(_fmt_author(authors[-1]))
+        out += ', and {}'.format(_fmt_author(authors[-1]))
     else:
         out = ''
-    return out
+    return out, ' '
 
 
 def _fmt_emph(x):
     if x:
-        return '*{}* '.format(x)
+        return '*{}*'.format(x), ' '
     else:
-        return ''
+        return '', None
 
 
 def _fmt_author(author):
@@ -32,73 +32,80 @@ def _fmt_author(author):
 
 def _fmt_title(title):
     if title:
-        return '"{}" '.format(title)
+        return '"{}"'.format(title), ' '
     else:
-        return ''
+        return '', None
 
 
 def _fmt_issued(issued):
     if len(issued) == 0:
-        return ''
+        return '', None
     if len(issued) == 1:
-        return _fmt_year(issued[0]['year'])
+        return _fmt_year(issued[0]['year']), ' '
     else:
         raise RuntimeError
 
 
 def _fmt_year(year):
     if year:
-        return '**({})** '.format(year)
+        return '**({})**'.format(year)
     else:
         return ''
 
 
 def _fmt_volume(volume):
     if volume:
-        return 'Vol: {}, '.format(volume)
+        return 'Vol: {}'.format(volume), ', '
     else:
-        return ''
+        return '', None
 
 
 def _fmt_page(page):
     if page:
-        return 'pp: {} '.format(page)
+        return 'pp: {}'.format(page), ', '
     else:
-        return ''
+        return '', None
 
 
 def _fmt_doi(doi):
     if doi:
-        return 'DOI: [{0}](https://doi.org/{0}) '.format(doi)
+        return 'DOI: [{0}](https://doi.org/{0})'.format(doi), ', '
     else:
-        return ''
+        return '', None
 
 
 def _fmt_pmcid(pmcid):
     if pmcid:
-        return 'PMCID: [{0}](https://www.ncbi.nlm.nih.gov/pmc/articles/{0}) '.format(pmcid)
+        return 'PMCID: [{0}](https://www.ncbi.nlm.nih.gov/pmc/articles/{0})'.format(pmcid), ', '
     else:
-        return ''
+        return '', None
 
 
 def _fmt_arxiv(arxiv):
     if arxiv:
-        return 'arXiv: [{0}](https://arxiv.org/abs/{0}) '.format(arxiv)
+        return 'arXiv: [{0}](https://arxiv.org/abs/{0})'.format(arxiv), ', '
     else:
-        return ''
+        return '', None
 
 
 def _fmt_url(url):
     if url:
         url = url.strip("'")
-        return '[link]({0}) '.format(url)
+        return '[URL]({0})'.format(url), ', '
     else:
-        return ''
+        return '', None
 
 
 def _sort_key(ref):
     issued = ref['issued'][0]
     return datetime(issued['year'], issued.get('month', 1), issued.get('day', 1))
+
+
+def _print_wrapper(toprint, outstrlist):
+    val, sep = toprint
+    if val:
+        outstrlist.append(val)
+        outstrlist.append(sep)
 
 
 if __name__ == '__main__':
@@ -117,23 +124,24 @@ if __name__ == '__main__':
             data = yaml.load(yamlblock)
             if len(data) == 1 and 'references' in data.keys():
                 for ref in sorted(data['references'], key=_sort_key, reverse=True):
-                    print(_fmt_authors(ref.get('author', [])), end='')
-                    print(_fmt_issued(ref.get('issued', [])), end='')
-                    print(_fmt_title(ref.get('title', '')), end='')
+                    outstrlist = []
+                    _print_wrapper(_fmt_authors(ref.get('author', [])), outstrlist)
+                    _print_wrapper(_fmt_issued(ref.get('issued', [])), outstrlist)
+                    _print_wrapper(_fmt_title(ref.get('title', '')), outstrlist)
                     if ref['type'] == 'paper-conference':
-                        print(_fmt_container(ref.get('container-title', '')), end='')
+                        _print_wrapper(_fmt_container(ref.get('container-title', '')), outstrlist)
                     elif ref['type'] == 'article-journal':
-                        print(_fmt_publisher(ref.get('publisher', '')), end='')
+                        _print_wrapper(_fmt_publisher(ref.get('publisher', '')), outstrlist)
                     elif ref['type'] == 'speech':
-                        print(_fmt_event(ref.get('event', '')), end='')
-                    print(_fmt_volume(ref.get('volume', '')), end='')
-                    print(_fmt_page(ref.get('page', '')), end='')
-                    print(_fmt_doi(ref.get('DOI', '')), end='')
-                    print(_fmt_pmcid(ref.get('PMCID', '')), end='')
-                    print(_fmt_arxiv(ref.get('arXiv', '')), end='')
-                    print(_fmt_url(ref.get('URL', '')), end='')
+                        _print_wrapper(_fmt_event(ref.get('event', '')), outstrlist)
+                    _print_wrapper(_fmt_volume(ref.get('volume', '')), outstrlist)
+                    _print_wrapper(_fmt_page(ref.get('page', '')), outstrlist)
+                    _print_wrapper(_fmt_doi(ref.get('DOI', '')), outstrlist)
+                    _print_wrapper(_fmt_pmcid(ref.get('PMCID', '')), outstrlist)
+                    _print_wrapper(_fmt_arxiv(ref.get('arXiv', '')), outstrlist)
+                    _print_wrapper(_fmt_url(ref.get('URL', '')), outstrlist)
 
-                    print('\n\n', end='')
+                    print(''.join(outstrlist[:-1]), end='\n\n')
             else:
                 print('---')
                 print(yamlblock, end='')
