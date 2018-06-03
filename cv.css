@@ -1,0 +1,32 @@
+<style>
+.author{
+	font-size: x-large;
+}
+
+/*https://stackoverflow.com/questions/1229635/aligning-html-headings-with-hanging-section-numbers*/
+.title{
+	text-align: center;
+}
+h1{
+	font-size: 1.75em;
+}
+h2{
+	padding-left: 2mm;
+}
+p{
+	padding-left: 2mm;
+}
+table{
+	padding-left: 2mm;
+}
+/* http://stackoverflow.com/questions/10041706/applying-a-single-font-to-an-entire-website-with-css */
+body{
+	max-width: 50em;
+	margin: auto;
+	font-family: sans-serif;
+}
+
+tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+</style>

@@ -2,8 +2,12 @@
 title: Steven Tilley
 documentclass: article
 geometry:
-    - margin=1in
+    - left=1.0788in
+    - right=1in
+    - top=1in
+    - bottom=1in
 urlcolor: blue
+subparagraph: yes
 ---
 
 
@@ -28,157 +32,43 @@ Email: [steventilleyii@gmail.com](mailto:steventilleyii@gmail.com)
 Education
 =========
 
-----------------  ----------------------------------------------------------------------------------
-2018 (expected)   Ph.D., Department of Biomedical Engineering,
-                  Johns Hopkins University, Baltimore, MD
+-----------------  ----------------              ------------------------------------------------------------------
+2018 (expected)    Ph.D., Biomedical Engineering Johns Hopkins University, Baltimore, MD \
+                                                 Thesis Title (tentative): _Improving CT image quality and
+                                                 accuracy using model-based iterative reconstruction with high-fidelity
+                                                 system and noise models_ \
+                                                 Thesis Advisor: J. Webster Stayman
 
-2012              B.S., Biological Engineering, Cornell University, Ithaca, NY
-----------------  ----------------------------------------------------------------------------------
+2012               B.S., Biological Engineering  Cornell University, Ithaca, NY \
+                                                 Thesis Title: _Construction and assessment of a high performance four channel
+                                                 multiphoton microscope for deep imaging_ \
+                                                 Thesis Advisor: Chris Schaffer
+
+-----------------  ----------------              ------------------------------------------------------------------
 
 
 Professional Experience
 =======================
 
-----------------  ----------------------------------------------------------------------------------
-2013-Present      Graduate Researcher, I-STAR Lab and AIAI Lab, Department of Biomedical
-                  Engineering, Johns Hopkins University, Baltimore, MD \
-                  Supervisor: Web Stayman
+-----------------  ----------------          ------------------------------------------------------------------
+2012-Present       Graduate Researcher       I-STAR Lab and AIAI Lab \
+                                             Department of Biomedical Engineering \
+                                             Johns Hopkins University, Baltimore, MD \
+                                             Advisor: J. Webster Stayman, Rotation Advisors:
+                                             Wociech Zbijewski, Natalia Trayanova
 
-2013              Graduate Researcher, I-STAR Lab, Department of Biomedical Engineering, Johns
-                  Hopkins University, Baltimore, MD \
-                  Supervisor: Wociech Zbijewski
+2012               Laboratory Technician     Schaffer Lab \
+                                             Cornell University, Ithaca, NY \
+                                             Supervisor: Chris Schaffer
 
-2012-2013         Graduate Researcher, Trayanova Lab, Department of Biomedical Engineering, Johns
-                  Hopkins University, Baltimore, MD \
-                  Supervisor: Natalia Trayanova
+2009-2012          Undergraduate Researcher  Schaffer Lab \
+                                             Cornell University, Ithaca, NY \
+                                             Advisor: Chris Schaffer
 
-2012              Laboratory Technician, Schaffer Lab, Cornell University, Ithaca, NY \
-                  Supervisor: Chris Schaffer
-
-2009-2012         Undergraduate Researcher, Schaffer Lab, Cornell University, Ithaca, NY \
-                  Supervisor: Chris Schaffer
-----------------  ----------------------------------------------------------------------------------
+-----------------  ----------------          ------------------------------------------------------------------
 
 
-Teaching Experience
-===================
 
-----------------  ----------------------------------------------------------------------------------
-2016              Teaching Assistant, Department of Biomedical Engineering, Johns Hopkins
-                  University, Baltimore, MD \
-                  Course: Imaging Instrumentation, Instructor: Web Stayman, 18 students
-
-2015              Teaching Assistant, Department of Biomedical Engineering, Johns Hopkins
-                  University, Baltimore, MD \
-                  Course: Models and Simulations, Instructor: Michael Beer, 108 students
-
-2013              Classroom Volunteer, Friendship Academy of Science and Technology, Baltimore, MD \
-                  Instructor: Paul Nelson
-----------------  ----------------------------------------------------------------------------------
-
-
-Funding Awards
-==============
-
-----------------  ----------------------------------------------------------------------------------
-2017-2019         Model-Based Reconstruction for High-Spatial Resolution Cone-Beam Computed
-                  Tomography \
-                  F31 EB023783 \
-                  National Institute of Biomedical Imaging and Bioengineering
-
-----------------  ----------------------------------------------------------------------------------
-
-
-Honors and Distinctions
-=======================
-
-----------------  ----------------------------------------------------------------------------------
-2017              Travel Award, 14th International Conference on Fully Three-Dimensional Image
-                  Reconstruction in Radiology and Nuclear Medicine
-
-2015              Travel Award, 13th International Conference on Fully Three-Dimensional Image
-                  Reconstruction in Radiology and Nuclear Medicine
-
-2010              Engineering Learning Initiatives Undergraduate Research Award \
-                  "Design and construction of a four-channel two-photon excited fluorescence
-                  microscope"
-----------------  ----------------------------------------------------------------------------------
-
-
-Professional Activities
-=======================
-
-----------------  ----------------------------------------------------------------------------------
-2013              Director, 3rd Annual Hopkins Imaging Conference, Baltimore, MD 
-
-----------------  ----------------------------------------------------------------------------------
-
-
-Invited Talks
-=============
-
-## Presenter
----
-references:
-- id: Tilley_CIS
-  type: speech
-  title: >-
-    Improving Image Quality and Accuracy in Flat-Panel Cone-Beam CT Using
-    Model-Based Iterative Reconstruction with High-Fidelity System and Noise Models
-  event: Center for Imaging Science Seminar Series, Johns Hopkins University
-  author:
-    - family: Tilley II
-      given: Steven
-  issued:
-    - year: 2018
-      month: 3
-      day: 27
-
-- id: Tilley_BME
-  type: speech
-  title: >-
-    A General CT Reconstruction Algorithm for Model-Based Material Decomposition
-  event: BME Seminar Student Presentations, Johns Hopkins University
-  author:
-    - family: Tilley II
-      given: Steven
-  issued:
-    - year: 2018
-      month: 3
-      day: 26
-
----
-
-## Co-author
----
-references:
-
-- id: ZbijewskiQuantitativeConeBeamCT2018
-  type: speech
-  title: >-
-    Quantitative Cone-Beam CT: New Technologies, Algorithms, and Applications in
-    Orthopedic Imaging
-  event: SIAM Conference on Imaging Science
-  author:
-    - family: Zbijewski
-      given: Wojciech
-    - family: Cao
-      given: Qian
-    - family: Tilley II
-      given: Steven
-    - family: Brehler
-      given: Michael
-    - family: Sisniega
-      given: Alejandro
-    - family: Stayman
-      given: J Webster
-    - family: Siewerden
-      given: Jeffrey H
-  issued:
-    - year: 2018
-      month: 6
-  event-place: 'Bologna, Italy'
----
 
 Publications
 ====================
@@ -197,7 +87,6 @@ references:
   volume: '61'
   issue: '1'
   source: Institute of Physics
-  URL: 'http://stacks.iop.org/0031-9155/61/i=1/a=296'
   DOI: 10.1088/0031-9155/61/1/296
   arXiv: 1706.05418
   PMCID: PMC5011041
@@ -221,17 +110,17 @@ references:
 - id: TilleyPenalizedLikelihoodReconstructionHighFidelity2017
   type: article-journal
   title: >-
-    Penalized-Likelihood Reconstruction with High-Fidelity Measurement Models
-    for High-Resolution Cone-Beam Imaging
+    Penalized-likelihood reconstruction with high-fidelity measurement models
+    for high-resolution cone-beam imaging
   container-title: IEEE Transactions on Medical Imaging
-  page: 1-1
-  volume: PP
-  issue: '99'
+  page: 988-999
+  volume: 37
+  issue: 4
   source: IEEE Xplore
   DOI: 10.1109/TMI.2017.2779406
   ISSN: 0278-0062
   author:
-    - family: Tilley
+    - family: Tilley II
       given: S.
     - family: Jacobson
       given: M.
@@ -251,7 +140,7 @@ references:
 ---
 
 
-## Conference Proceedings
+## Conference Publications
 
 ---
 references:
@@ -259,19 +148,16 @@ references:
 - id: StaymanIntegrationComponentKnowledge2014
   type: paper-conference
   title: >-
-    Integration of Component Knowledge in Penalized-Likelihood Reconstruction
-    with Morphological and Spectral Uncertainties
+    Integration of component knowledge in penalized-likelihood reconstruction
+    with morphological and spectral uncertainties
   container-title: >-
-    International Conference on Image Formation in X-Ray Computed Tomography.
-    International Conference on Image Formation in X-Ray Computed Tomography
+    Proc. 3rd Intl. Mtg. on Image Formation in X-ray CT
   page: 111-115
-  volume: '2014'
   source: PubMed Central
-  URL: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4211110/'
   author:
     - family: Stayman
       given: J. Webster
-    - family: Tilley
+    - family: Tilley II
       given: Steven
     - family: Siewerdsen
       given: Jeffrey H.
@@ -287,9 +173,9 @@ references:
 - id: ZbijewskiVolumetricImagingSparse2013
   type: paper-conference
   title: >-
-    Volumetric Imaging with Sparse Arrays of Photon Counting Silicon Strip
-    Detectors
-  container-title: Int'l Mtg. Fully 3D Image Recon. in Radiology and Nuc. Med.
+    Volumetric imaging with sparse arrays of photon counting silicon strip
+    detectors
+  container-title: Intl. Mtg. Fully 3D Image Recon. in Radiology and Nuc. Med.
   page: 276-279
   URL: 'http://www.fully3d.org/2013/Fully3D2013Proceedings.pdf'
   author:
@@ -320,11 +206,10 @@ references:
 - id: Staymana
   type: paper-conference
   title: >-
-    Generalized Least-Squares CT Reconstruction with Detector Blur and
-    Correlated Noise Models
-  container-title: Proc. SPIE
-  page: 903335-903335-6
-  URL: 'http://dx.doi.org/10.1117/12.2043067'
+    Generalized least-squares CT reconstruction with detector blur and
+    correlated noise models
+  container-title: SPIE Medical Imaging
+  volume: 9033
   DOI: 10.1117/12.2043067
   PMCID: PMC4201055
   ISBN: 4-10-955111-0
@@ -346,11 +231,10 @@ references:
 - id: TilleyII2014a
   type: paper-conference
   title: >-
-    Iterative CT Reconstruction using Models of Source and Detector Blur and
-    Correlated Noise
-  container-title: Proc. 3rd Intl. Mtg. on image formation in X-ray CT
+    Iterative CT reconstruction using models of source and detector blur and
+    correlated noise
+  container-title: Proc. 3rd Intl. Mtg. on Image Formation in X-ray CT
   page: 363-367
-  URL: 'http://www.ucair.med.utah.edu/CTmeeting/ProceedingsCTMeeting2014.pdf'
   author:
     - family: Tilley II
       given: Steven
@@ -367,18 +251,17 @@ references:
 - id: Bares15
   type: paper-conference
   title: >-
-    Hyperspectral Multiphoton Microscopy: Demonstration of 48-channel Imaging In
-    Vivo
-  container-title: Frontiers in Optics 2015
+    Hyperspectral multiphoton microscopy: Demonstration of 48-channel imaging in
+    vivo
+  container-title: Frontiers in Optics
   publisher: Optical Society of America
   page: FTu2D.5
-  URL: 'https://www.osapublishing.org/abstract.cfm?URI=FiO-2015-FTu2D.5'
   DOI: 10.1364/FIO.2015.FTu2D.5
   ISBN: 978-1-943580-03-3
   author:
     - family: Bares
       given: Amanda
-    - family: Tilley
+    - family: Tilley II
       given: Steven
     - family: Doerschuk
       given: Peter S.
@@ -392,9 +275,9 @@ references:
 - id: Tilley2015
   type: paper-conference
   title: >-
-    Generalized Penalized Weighted Least-Squares Reconstruction for Deblurred
-    Flat-Panel CBCT
-  container-title: Int'l Mtg. Fully 3D Image Recon. in Radiology and Nuc. Med.
+    Generalized penalized weighted least-squares reconstruction for deblurred
+    flat-panel CBCT
+  container-title: Intl. Mtg. Fully 3D Image Recon. in Radiology and Nuc. Med.
   author:
     - family: Tilley II
       given: Steven
@@ -406,26 +289,26 @@ references:
     - year: 2015
       month: 5
       day: 31
-  URL: http://aiai.jhu.edu/papers/Fully3D2015_tilley.pdf
+  page: 236-239
+  URL: http://www.fully3d.org/2015/Fully3D_Proceedings_2015.pdf
 
 - id: ZbijewskiQuantitativeAssessmentBone2015
   type: paper-conference
   title: >-
-    Quantitative Assessment Of Bone And Joint Health On A Dedicated Extremities
-    Cone-Beam CT System
-  container-title: International journal of computer assisted radiology and surgery
+    Quantitative assessment of bone and joint health on a dedicated extremities
+    cone-beam CT system
+  container-title: International Journal of Computer Assisted Radiology and Surgery
   page: S29-S31
   volume: '10'
   issue: Suppl 1
   source: PubMed Central
-  URL: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4451217/'
   ISSN: 1861-6410
   author:
     - family: Zbijewski
       given: Wojciech
     - family: Cao
       given: Qian
-    - family: Tilley
+    - family: Tilley II
       given: Steven
     - family: Sisniega
       given: Alejandro
@@ -450,14 +333,13 @@ references:
 - id: bares_hyperspectral_2016
   type: paper-conference
   title: >-
-    Hyperspectral Imaging in Live Mouse Cortex Using a 48-Channel Multiphoton
-    Microscope
-  container-title: 'Frontiers in Optics 2016 (2016), paper FTh5D.5'
+    Hyperspectral imaging in live mouse cortex using a 48-channel multiphoton
+    microscope
+  container-title: 'Frontiers in Optics'
   publisher: Optical Society of America
   page: FTh5D.5
   source: www.osapublishing.org
   event: Frontiers in Optics
-  URL: 'https://www.osapublishing.org/abstract.cfm?uri=FiO-2016-FTh5D.5'
   DOI: 10.1364/FIO.2016.FTh5D.5
   language: EN
   author:
@@ -467,7 +349,7 @@ references:
       given: Mitchell A.
     - family: Mejooli
       given: Menansili A.
-    - family: Tilley
+    - family: Tilley II
       given: Steven
     - family: Chen
       given: Kuang E.
@@ -491,11 +373,11 @@ references:
   title: >-
     Design of dual multiple aperture devices for dynamical fluence field
     modulated CT
-  container-title: Proc. 4th Intl. Mtg. on image formation in X-ray CT
+  container-title: Proc. 4th Intl. Mtg. on Image Formation in X-ray CT
   author:
     - family: Mathews
       given: A. J.
-    - family: Tilley
+    - family: Tilley II
       given: S.
     - family: Gang
       given: G.
@@ -520,7 +402,7 @@ references:
   title: >-
     Modeling shift-variant X-ray focal spot blur for high-resolution flat-panel
     cone-beam CT
-  container-title: Proc. 4th Intl. Mtg. on image formation in X-ray CT
+  container-title: Proc. 4th Intl. Mtg. on Image Formation in X-ray CT
   author:
     - family: Tilley II
       given: Steven
@@ -542,12 +424,9 @@ references:
   title: >-
     Nonlinear statistical reconstruction for flat-panel cone-beam CT with blur
     and correlated noise models
-  container-title: 'SPIE 9783 Medical Imaging 2016: Physics of Medical Imaging'
-  page: 97830R-97830R-6
+  container-title: 'SPIE Medical Imaging'
   volume: '9783'
   source: Silverchair
-  URL: >-
-    'https://www.spiedigitallibrary.org/conference-proceedings-of-spie/9783/1/Nonlinear-statistical-reconstruction-for-flat-panel-cone-beam-CT-with/10.1117/12.2216126.short'
   DOI: 10.1117/12.2216126
   author:
     - family: Tilley II
@@ -571,9 +450,9 @@ references:
 - id: tilley_ii_high-fidelity_2017
   type: paper-conference
   title: >-
-    High-Fidelity Modeling of Shift-Variant Focal-Spot Blur for High-Resolution
+    High-fidelity modeling of shift-variant focal-spot blur for high-resolution
     CT
-  container-title: Int'l Mtg. Fully 3D Image Recon. in Radiology and Nuc. Med.
+  container-title: Intl. Mtg. Fully 3D Image Recon. in Radiology and Nuc. Med.
   author:
     - family: Tilley II
       given: Steven
@@ -592,18 +471,16 @@ references:
 - id: zhang_deformable_2017
   type: paper-conference
   title: >-
-    Deformable Known Component Model-Based Reconstruction for Coronary CT
-    Angiography
+    Deformable known component model-based reconstruction for coronary CT
+    angiography
   container-title: SPIE Medical Imaging
   publisher: International Society for Optics and Photonics
-  page: 1013213–1013213
+  volume: 10132
   source: Google Scholar
-  URL: >-
-    http://proceedings.spiedigitallibrary.org/pdfaccess.ashx?url=/data/conferences/spiep/91903/1013213.pdf
   author:
     - family: Zhang
       given: X.
-    - family: Tilley
+    - family: Tilley II
       given: S.
     - family: Xu
       given: S.
@@ -623,9 +500,76 @@ references:
       day: 27
   DOI: 10.1117/12.2255303
 
+- id: tilley_ii_general_2018
+  type: paper-conference
+  title: A general CT reconstruction algorithm for model-based material decomposition
+  container-title: SPIE Medical Imaging
+  publisher: International Society for Optics and Photonics
+  author:
+    - family: Tilley II
+      given: Steven
+    - family: Zbijewski
+      given: Wojciech
+    - family: Stayman
+      given: J. Webster
+  issued:
+    - year: 2018
+      month: 2
+      day: 10
+  publisher-place: 'Houston, TX'
+  volume: 10573
+  DOI: 10.1117/12.2293776
+
+- id: TilleyIIHighFidelityModelingDetector2018
+  type: paper-conference
+  title: >-
+    High-fidelity modeling of detector lag and gantry motion in CT
+    reconstruction
+  container-title: Proc. 5th Intl. Mtg. on Image Formation in X-ray CT
+  author:
+    - family: Tilley II
+      given: Steven
+    - family: Sisniega
+      given: Alejandro
+    - family: Siewerdsen
+      given: Jeffrey H.
+    - family: Stayman
+      given: J. Webster
+  issued:
+    - year: 2018
+      month: 5
+      day: 20
+  page: 318-322
+  arXiv: 1805.11631
+
+- id: StaymanModelbasedmultimaterialdecomposition2018
+  type: paper-conference
+  title: Model-based multi-material decomposition using spatial-spectral filters
+  container-title: Proc. 5th Intl. Mtg. on Image Formation in X-ray CT
+  event: International Conference on Image Formation in X-Ray Computed Tomography
+  author:
+    - family: Stayman
+      given: J. Webster
+    - family: Tilley II
+      given: Steven
+  issued:
+    - year: 2018
+      month: 5
+      day: 20
+  publisher-place: 'Salt Lake City, Utah, US'
+  page: 102-105
+  URL: http://www.ucair.med.utah.edu/CTmeeting/CT2018_Proceedings.pdf
+
+---
+
+## Conference Abstracts
+
+---
+
+references:
 - id: ZbijewskiHighResolutionImagingBone2018
   type: paper-conference
-  title: High-Resolution Imaging of Bone Health
+  title: High-resolution imaging of bone health
   container-title: Bulletin of the American Physical Society
   publisher: American Physical Society
   source: meetings.aps.org
@@ -656,90 +600,6 @@ references:
       day: 23
   publisher-place: 'Los Angeles, California'
 
-- id: tilley_ii_general_2018
-  type: paper-conference
-  title: A General CT Reconstruction Algorithm for Model-Based Material Decomposition
-  container-title: SPIE Medical Imaging
-  publisher: International Society for Optics and Photonics
-  author:
-    - family: Tilley II
-      given: Steven
-    - family: Zbijewski
-      given: Wojciech
-    - family: Stayman
-      given: J. Webster
-  issued:
-    - year: 2018
-      month: 2
-      day: 10
-  publisher-place: 'Houston, TX'
-  volume: 10573
-  DOI: 10.1117/12.2293776
-
-- id: TilleyIIHighFidelityModelingDetector2018
-  type: paper-conference
-  title: >-
-    High-Fidelity Modeling of Detector Lag and Gantry Motion in CT
-    Reconstruction
-  container-title: Proc. 5th Intl. Mtg. on image formation in X-ray CT
-  author:
-    - family: Tilley II
-      given: Steven
-    - family: Sisniega
-      given: Alejandro
-    - family: Siewerdsen
-      given: Jeffrey H.
-    - family: Stayman
-      given: J. Webster
-  issued:
-    - year: 2018
-      month: 5
-      day: 20
-  page: 318-322
-  URL: http://www.ucair.med.utah.edu/CTmeeting/CT2018_Proceedings.pdf
-  arXiv: 1805.11631
-
-- id: StaymanModelbasedmultimaterialdecomposition2018
-  type: paper-conference
-  title: Model-based multi-material decomposition using spatial-spectral filters
-  container-title: Proc. 5th Intl. Mtg. on image formation in X-ray CT
-  event: International Conference on Image Formation in X-Ray Computed Tomography
-  author:
-    - family: Stayman
-      given: J. Webster
-    - family: Tilley II
-      given: Steven
-  issued:
-    - year: 2018
-      month: 5
-      day: 20
-  publisher-place: 'Salt Lake City, Utah, US'
-  page: 102-105
-  URL: http://www.ucair.med.utah.edu/CTmeeting/CT2018_Proceedings.pdf
-
----
-
-## Unpublished
-
----
-references:
-
-- id: TilleyII2015
-  type: speech
-  title: >-
-    High Resolution CBCT with Blur and Correlated Noise Models in a Non-linear
-    Reconstruction Algorithm
-  event: The 5th Annual Hopkins Imaging Conference
-  author:
-    - family: Tilley II
-      given: Steven
-    - family: Siewerdsen
-      given: Jeffrey H.
-    - family: Stayman
-      given: J Webster
-  issued:
-    - year: 2015
-
 - id: Bares2016
   type: speech
   title: >-
@@ -749,7 +609,7 @@ references:
   author:
     - family: Bares
       given: A. J.
-    - family: Tilley
+    - family: Tilley II
       given: S.
     - family: Mejooli
       given: M. A.
@@ -762,5 +622,154 @@ references:
   issued:
     - year: 2016
   publisher-place: 'Brussels, Belgium'
+  URL: 'https://spie.org/EPE16/conferencedetails/biophotonics-photonic-solutions?SSO=1'
 
 ---
+
+## Invited Talks and Seminars
+
+---
+references:
+- id: Tilley_CIS
+  type: speech
+  title: >-
+    Improving image quality and accuracy in flat-panel cone-beam CT using
+    model-based iterative reconstruction with high-fidelity system and noise models
+  event: Center for Imaging Science Seminar Series, Johns Hopkins University
+  author:
+    - family: Tilley II
+      given: Steven
+  issued:
+    - year: 2018
+      month: 3
+      day: 27
+
+- id: Tilley_BME
+  type: speech
+  title: >-
+    A general CT reconstruction algorithm for model-based material decomposition
+  event: BME Seminar Student Presentations, Johns Hopkins University
+  author:
+    - family: Tilley II
+      given: Steven
+  issued:
+    - year: 2018
+      month: 3
+      day: 26
+
+- id: ZbijewskiQuantitativeConeBeamCT2018
+  type: speech
+  title: >-
+    Quantitative cone-beam CT: new technologies, algorithms, and applications in
+    orthopedic imaging
+  event: SIAM Conference on Imaging Science
+  author:
+    - family: Zbijewski
+      given: Wojciech
+    - family: Cao
+      given: Qian
+    - family: Tilley II
+      given: Steven
+    - family: Brehler
+      given: Michael
+    - family: Sisniega
+      given: Alejandro
+    - family: Stayman
+      given: J Webster
+    - family: Siewerden
+      given: Jeffrey H
+  issued:
+    - year: 2018
+      month: 6
+  event-place: 'Bologna, Italy'
+  URL: 'https://www.siam-is18.dm.unibo.it/presentations/678'
+---
+
+## Other Conference Presentations
+
+---
+references:
+
+- id: TilleyII2015
+  type: speech
+  title: >-
+    High resolution CBCT with blur and correlated noise models in a non-linear
+    reconstruction algorithm
+  event: The 5th Annual Hopkins Imaging Conference
+  author:
+    - family: Tilley II
+      given: Steven
+    - family: Siewerdsen
+      given: Jeffrey H.
+    - family: Stayman
+      given: J Webster
+  issued:
+    - year: 2015
+
+---
+
+
+Funding and Awards
+======
+
+-----------------  ----------------             ------------------------------------------------------------------
+2017-2019          F31 EB023783                 National Institute of Biomedical Imaging and Bioengineering \
+                                                _Model-based reconstruction for high-spatial resolution cone-beam computed
+                                                tomography_
+
+2017               Travel Award                 14th International Conference on Fully Three-Dimensional Image
+                                                Reconstruction in Radiology and Nuclear Medicine
+
+2015               Travel Award                 13th International Conference on Fully Three-Dimensional Image
+                                                Reconstruction in Radiology and Nuclear Medicine
+
+2010               Undergraduate Research Award Engineering Learning Initiatives \
+                                                _Design and construction of a four-channel two-photon excited fluorescence
+                                                microscope_
+
+-----------------  ----------------             ------------------------------------------------------------------
+
+
+Professional Activities and Memberships
+=======================================
+
+## Activities
+-----------------  ----------------             ------------------------------------------------------------------
+2013               Director                     3rd Annual Hopkins Imaging Conference, Baltimore, MD 
+
+-----------------  ----------------             ------------------------------------------------------------------
+
+## Memberships
+
+--------------  ----------------------------------------------------------------------------------
+2018            American Association of Physicists in Medicine
+
+2016            The International Society for Optics and Photonics
+
+--------------  ----------------------------------------------------------------------------------
+
+
+Teaching Experience
+===================
+
+-----------------  ----------------          ------------------------------------------------------------------
+2016               Teaching Assistant        Imaging Instrumentation \
+                                             Department of Biomedical Engineering, Johns Hopkins
+                                             University, Baltimore, MD
+                                             
+
+2015               Teaching Assistant        Models and Simulations \
+                                             Department of Biomedical Engineering, Johns Hopkins
+                                             University, Baltimore, MD
+                                             
+
+-----------------  ----------------          ------------------------------------------------------------------
+
+
+Volunteering and Outreach
+=========================
+
+-----------------  ----------------          ------------------------------------------------------------------
+2013               Classroom Volunteer       Friendship Academy of Science and Technology, Baltimore, MD
+
+-----------------  ----------------          ------------------------------------------------------------------
