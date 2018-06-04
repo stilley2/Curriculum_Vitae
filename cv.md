@@ -55,7 +55,7 @@ Professional Experience
                                              Department of Biomedical Engineering \
                                              Johns Hopkins University, Baltimore, MD \
                                              Advisor: J. Webster Stayman, Rotation Advisors:
-                                             Wociech Zbijewski, Natalia Trayanova
+                                             Wojciech Zbijewski, Natalia Trayanova
 
 2012               Laboratory Technician     Schaffer Lab \
                                              Cornell University, Ithaca, NY \
