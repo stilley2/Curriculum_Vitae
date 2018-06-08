@@ -259,6 +259,42 @@ Conference*
 </tbody>
 </table>
 
+# Skills
+
+### Imaging Systems
+
+  - Cone-beam computed tomography
+  - Multiphoton microscopy
+  - Data acquisition and processing
+  - System characterization and modeling
+
+### Mathematical Techniques
+
+  - Estimation theory
+  - Optimization
+  - Algorithm development and implementation
+
+### Programming
+
+  - Python
+  - CUDA
+  - C/C++
+  - Matlab
+  - Hardware interfacing
+
+### Design and Construction
+
+  - CAD (SolidWorks, OpenSCAD)
+  - Machining
+  - 3D printing
+  - Wiring and soldering
+
+### Computing Tools
+
+  - High Performance Computing Clusters
+  - System Administration
+(Linux)
+
 # Professional Activities and Memberships
 
 ## Activities
