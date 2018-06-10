@@ -1,5 +1,3 @@
-Note: This is a draft version
-
 # Current Position
 
 Ph.D. Candidate  
@@ -15,21 +13,23 @@ Email: <steventilleyii@gmail.com>
 
 <table>
 <colgroup>
-<col style="width: 16%" />
-<col style="width: 25%" />
-<col style="width: 57%" />
+<col style="width: 17%" />
+<col style="width: 22%" />
+<col style="width: 60%" />
 </colgroup>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">2018 (expected)</td>
-<td>Ph.D., Biomedical Engineering</td>
+<td>Ph.D., Biomedical<br />
+Engineering</td>
 <td style="text-align: left;">Johns Hopkins University, Baltimore, MD<br />
 Thesis Title (tentative): <em>Improving CT image quality and accuracy using model-based iterative reconstruction with high-fidelity system and noise models</em><br />
 Thesis Advisor: J. Webster Stayman</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">2012</td>
-<td>B.S., Biological Engineering</td>
+<td>B.S., Biological<br />
+Engineering</td>
 <td style="text-align: left;">Cornell University, Ithaca, NY<br />
 Thesis Title: <em>Construction and assessment of a high performance four channel multiphoton microscope for deep imaging</em><br />
 Thesis Advisor: Chris Schaffer</td>
@@ -41,9 +41,9 @@ Thesis Advisor: Chris Schaffer</td>
 
 <table>
 <colgroup>
-<col style="width: 16%" />
-<col style="width: 23%" />
-<col style="width: 59%" />
+<col style="width: 17%" />
+<col style="width: 22%" />
+<col style="width: 60%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -56,7 +56,8 @@ Advisor: J. Webster Stayman, Rotation Advisors: Wojciech Zbijewski, Natalia Tray
 </tr>
 <tr class="even">
 <td style="text-align: left;">2012</td>
-<td>Laboratory Technician</td>
+<td>Temporary Service<br />
+Technician</td>
 <td style="text-align: left;">Schaffer Lab<br />
 Cornell University, Ithaca, NY<br />
 Supervisor: Chris Schaffer</td>
@@ -229,9 +230,9 @@ Conference*
 
 <table>
 <colgroup>
-<col style="width: 16%" />
-<col style="width: 25%" />
-<col style="width: 58%" />
+<col style="width: 17%" />
+<col style="width: 22%" />
+<col style="width: 60%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -251,8 +252,15 @@ Conference*
 <td style="text-align: left;">13th International Conference on Fully Three-Dimensional Image Reconstruction in Radiology and Nuclear Medicine</td>
 </tr>
 <tr class="even">
+<td style="text-align: left;">2012-2014</td>
+<td style="text-align: left;">T32 EB010021</td>
+<td style="text-align: left;">National Institute of Biomedical Imaging and Bioengineering<br />
+Training program in translational research in imaging</td>
+</tr>
+<tr class="odd">
 <td style="text-align: left;">2010</td>
-<td style="text-align: left;">Undergraduate Research Award</td>
+<td style="text-align: left;">Undergraduate<br />
+Research Award</td>
 <td style="text-align: left;">Engineering Learning Initiatives<br />
 <em>Design and construction of a four-channel two-photon excited fluorescence microscope</em></td>
 </tr>
@@ -314,22 +322,24 @@ Conference*
 
 <table>
 <colgroup>
-<col style="width: 16%" />
-<col style="width: 23%" />
-<col style="width: 59%" />
+<col style="width: 17%" />
+<col style="width: 22%" />
+<col style="width: 60%" />
 </colgroup>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">2016</td>
 <td>Teaching Assistant</td>
 <td style="text-align: left;">Imaging Instrumentation<br />
-Department of Biomedical Engineering, Johns Hopkins University, Baltimore, MD</td>
+Department of Biomedical Engineering<br />
+Johns Hopkins University, Baltimore, MD</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">2015</td>
 <td>Teaching Assistant</td>
 <td style="text-align: left;">Models and Simulations<br />
-Department of Biomedical Engineering, Johns Hopkins University, Baltimore, MD</td>
+Department of Biomedical Engineering<br />
+Johns Hopkins University, Baltimore, MD</td>
 </tr>
 </tbody>
 </table>

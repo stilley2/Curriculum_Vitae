@@ -11,9 +11,6 @@ subparagraph: yes
 ---
 
 
-Note: This is a draft version
-
-
 Current Position
 ================
 
@@ -32,40 +29,40 @@ Email: [steventilleyii@gmail.com](mailto:steventilleyii@gmail.com)
 Education
 =========
 
------------------  ----------------              ------------------------------------------------------------------
-2018 (expected)    Ph.D., Biomedical Engineering Johns Hopkins University, Baltimore, MD \
-                                                 Thesis Title (tentative): _Improving CT image quality and
-                                                 accuracy using model-based iterative reconstruction with high-fidelity
-                                                 system and noise models_ \
-                                                 Thesis Advisor: J. Webster Stayman
+-----------------  ----------------         ------------------------------------------------------------------
+2018 (expected)    Ph.D., Biomedical \      Johns Hopkins University, Baltimore, MD \
+                   Engineering              Thesis Title (tentative): _Improving CT image quality and
+                                            accuracy using model-based iterative reconstruction with high-fidelity
+                                            system and noise models_ \
+                                            Thesis Advisor: J. Webster Stayman
 
-2012               B.S., Biological Engineering  Cornell University, Ithaca, NY \
-                                                 Thesis Title: _Construction and assessment of a high performance four channel
-                                                 multiphoton microscope for deep imaging_ \
-                                                 Thesis Advisor: Chris Schaffer
+2012               B.S., Biological \       Cornell University, Ithaca, NY \
+                   Engineering              Thesis Title: _Construction and assessment of a high performance four channel
+                                            multiphoton microscope for deep imaging_ \
+                                            Thesis Advisor: Chris Schaffer
 
------------------  ----------------              ------------------------------------------------------------------
+-----------------  ----------------         ------------------------------------------------------------------
 
 
 Professional Experience
 =======================
 
------------------  ----------------          ------------------------------------------------------------------
-2012-Present       Graduate Researcher       I-STAR Lab and AIAI Lab \
-                                             Department of Biomedical Engineering \
-                                             Johns Hopkins University, Baltimore, MD \
-                                             Advisor: J. Webster Stayman, Rotation Advisors:
-                                             Wojciech Zbijewski, Natalia Trayanova
+-----------------  ----------------         ------------------------------------------------------------------
+2012-Present       Graduate Researcher      I-STAR Lab and AIAI Lab \
+                                            Department of Biomedical Engineering \
+                                            Johns Hopkins University, Baltimore, MD \
+                                            Advisor: J. Webster Stayman, Rotation Advisors:
+                                            Wojciech Zbijewski, Natalia Trayanova
 
-2012               Laboratory Technician     Schaffer Lab \
-                                             Cornell University, Ithaca, NY \
-                                             Supervisor: Chris Schaffer
+2012               Temporary Service \      Schaffer Lab \
+                   Technician               Cornell University, Ithaca, NY \
+                                            Supervisor: Chris Schaffer
 
-2009-2012          Undergraduate Researcher  Schaffer Lab \
-                                             Cornell University, Ithaca, NY \
-                                             Advisor: Chris Schaffer
+2009-2012          Undergraduate Researcher Schaffer Lab \
+                                            Cornell University, Ithaca, NY \
+                                            Advisor: Chris Schaffer
 
------------------  ----------------          ------------------------------------------------------------------
+-----------------  ----------------         ------------------------------------------------------------------
 
 
 
@@ -712,22 +709,25 @@ references:
 Funding and Awards
 ======
 
------------------  ----------------             ------------------------------------------------------------------
-2017-2019          F31 EB023783                 National Institute of Biomedical Imaging and Bioengineering \
-                                                _Model-based reconstruction for high-spatial resolution cone-beam computed
-                                                tomography_
+-----------------  ----------------         ------------------------------------------------------------------
+2017-2019          F31 EB023783             National Institute of Biomedical Imaging and Bioengineering \
+                                            _Model-based reconstruction for high-spatial resolution cone-beam computed
+                                            tomography_
 
-2017               Travel Award                 14th International Conference on Fully Three-Dimensional Image
-                                                Reconstruction in Radiology and Nuclear Medicine
+2017               Travel Award             14th International Conference on Fully Three-Dimensional Image
+                                            Reconstruction in Radiology and Nuclear Medicine
 
-2015               Travel Award                 13th International Conference on Fully Three-Dimensional Image
-                                                Reconstruction in Radiology and Nuclear Medicine
+2015               Travel Award             13th International Conference on Fully Three-Dimensional Image
+                                            Reconstruction in Radiology and Nuclear Medicine
 
-2010               Undergraduate Research Award Engineering Learning Initiatives \
-                                                _Design and construction of a four-channel two-photon excited fluorescence
-                                                microscope_
+2012-2014          T32 EB010021             National Institute of Biomedical Imaging and Bioengineering \
+                                            Training program in translational research in imaging 
 
------------------  ----------------             ------------------------------------------------------------------
+2010               Undergraduate \          Engineering Learning Initiatives \
+                   Research Award           _Design and construction of a four-channel two-photon excited fluorescence
+                                            microscope_
+
+-----------------  ----------------         ------------------------------------------------------------------
 
 
 Skills
@@ -768,10 +768,10 @@ Professional Activities and Memberships
 =======================================
 
 ## Activities
------------------  ----------------             ------------------------------------------------------------------
-2013               Director                     3rd Annual Hopkins Imaging Conference, Baltimore, MD 
+-----------------  ----------------         ------------------------------------------------------------------
+2013               Director                 3rd Annual Hopkins Imaging Conference, Baltimore, MD 
 
------------------  ----------------             ------------------------------------------------------------------
+-----------------  ----------------         ------------------------------------------------------------------
 
 ## Memberships
 
@@ -786,24 +786,22 @@ Professional Activities and Memberships
 Teaching Experience
 ===================
 
------------------  ----------------          ------------------------------------------------------------------
-2016               Teaching Assistant        Imaging Instrumentation \
-                                             Department of Biomedical Engineering, Johns Hopkins
-                                             University, Baltimore, MD
-                                             
+-----------------  ----------------         ------------------------------------------------------------------
+2016               Teaching Assistant       Imaging Instrumentation \
+                                            Department of Biomedical Engineering \
+                                            Johns Hopkins University, Baltimore, MD
+                                            
+2015               Teaching Assistant       Models and Simulations \
+                                            Department of Biomedical Engineering \
+                                            Johns Hopkins University, Baltimore, MD
 
-2015               Teaching Assistant        Models and Simulations \
-                                             Department of Biomedical Engineering, Johns Hopkins
-                                             University, Baltimore, MD
-                                             
-
------------------  ----------------          ------------------------------------------------------------------
+-----------------  ----------------         ------------------------------------------------------------------
 
 
 Volunteering and Outreach
 =========================
 
------------------  ----------------          ------------------------------------------------------------------
-2013               Classroom Volunteer       Friendship Academy of Science and Technology, Baltimore, MD
+-----------------  ----------------         ------------------------------------------------------------------
+2013               Classroom Volunteer      Friendship Academy of Science and Technology, Baltimore, MD
 
------------------  ----------------          ------------------------------------------------------------------
+-----------------  ----------------         ------------------------------------------------------------------
