@@ -255,7 +255,7 @@ Conference*
 <td style="text-align: left;">2012-2014</td>
 <td style="text-align: left;">T32 EB010021</td>
 <td style="text-align: left;">National Institute of Biomedical Imaging and Bioengineering<br />
-Training program in translational research in imaging</td>
+<em>Training program in translational research in imaging</em></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">2010</td>

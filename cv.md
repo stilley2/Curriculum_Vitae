@@ -721,7 +721,7 @@ Funding and Awards
                                             Reconstruction in Radiology and Nuclear Medicine
 
 2012-2014          T32 EB010021             National Institute of Biomedical Imaging and Bioengineering \
-                                            Training program in translational research in imaging 
+                                            _Training program in translational research in imaging_
 
 2010               Undergraduate \          Engineering Learning Initiatives \
                    Research Award           _Design and construction of a four-channel two-photon excited fluorescence
