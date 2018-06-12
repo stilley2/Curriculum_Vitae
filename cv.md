@@ -200,6 +200,46 @@ references:
       day: 22
   publisher-place: 'Lake Tahoe, California'
 
+- id: CaoHighresolutionextremityconebeam2018
+  type: paper-conference
+  title: >-
+    High-resolution extremity cone-beam CT with a CMOS detector: evaluation of a
+    clinical prototype in quantitative assessment of bone microarchitecture
+  container-title: 'SPIE Medical Imaging'
+  publisher: International Society for Optics and Photonics
+  volume: '10573'
+  source: www.spiedigitallibrary.org
+  event: 'Medical Imaging 2018: Physics of Medical Imaging'
+  DOI: 10.1117/12.2293810
+  author:
+    - family: Cao
+      given: Q.
+    - family: Brehler
+      given: M.
+    - family: Sisniega
+      given: A.
+    - family: Tilley II
+      given: S.
+    - family: Bhruwani
+      given: M. M. Shiraz
+    - family: Stayman
+      given: J. W.
+    - family: Yorkston
+      given: J.
+    - family: Siewerdsen
+      given: J. H.
+    - family: Zbijewski
+      given: W.
+  issued:
+    - year: 2018
+      month: 3
+      day: 9
+  accessed:
+    - year: 2018
+      month: 6
+      day: 12
+  title-short: High-resolution extremity cone-beam CT with a CMOS detector
+
 - id: Staymana
   type: paper-conference
   title: >-
