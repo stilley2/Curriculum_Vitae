@@ -104,6 +104,13 @@ multi-material decomposition using spatial-spectral filters” *Proc. 5th
 Intl. Mtg. on Image Formation in X-ray CT* pp: 102-105,
 [link](http://www.ucair.med.utah.edu/CTmeeting/CT2018_Proceedings.pdf)
 
+Cao, Q., Brehler, M., Sisniega, A., **Tilley II, S.**, Bhruwani, M. M.
+S., Stayman, J. W., Yorkston, J., Siewerdsen, J. H., and Zbijewski, W.
+**(2018)** “High-resolution extremity cone-beam CT with a CMOS detector:
+evaluation of a clinical prototype in quantitative assessment of bone
+microarchitecture” *SPIE Medical Imaging* Vol: 10573, DOI:
+[10.1117/12.2293810](https://doi.org/10.1117/12.2293810)
+
 **Tilley II, S.**, Zbijewski, W., and Stayman, J. W. **(2018)** “A
 general CT reconstruction algorithm for model-based material
 decomposition” *SPIE Medical Imaging* Vol: 10573, DOI:
