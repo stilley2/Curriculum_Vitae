@@ -9,6 +9,17 @@ Baltimore, MD 21205
 Phone: 401-447-8641  
 Email: <steventilleyii@gmail.com>
 
+# Summary
+
+I have been an imaging researcher since 2009, and have experience in
+tomographic reconstruction, the design, construction, and
+characterization of imaging systems, software-hardware interfacing, and
+image processing. My graduate research has been on CT reconstruction
+algorithms, where I improve image quality by combining advanced
+statistical and physical models with custom optimization algorithms. As
+an undergraduate I worked on design and construction of novel
+multiphoton microscopes.
+
 # Education
 
 <table>
