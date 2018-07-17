@@ -90,14 +90,15 @@ Advisor: Chris Schaffer</td>
 **Tilley II, S.**, Jacobson, M., Cao, Q., Brehler, M., Sisniega, A.,
 Zbijewski, W., and Stayman, J. W. **(2017)** “Penalized-likelihood
 reconstruction with high-fidelity measurement models for high-resolution
-cone-beam imaging” Vol: 37, pp: 988-999, DOI:
+cone-beam imaging” *IEEE Transactions on Medical Imaging* Vol: 37, pp:
+988-999, DOI:
 [10.1109/TMI.2017.2779406](https://doi.org/10.1109/TMI.2017.2779406),
 arXiv: [1712.05297](https://arxiv.org/abs/1712.05297)
 
 **Tilley II, S.**, Siewerdsen, J. H., and Stayman, J. W. **(2016)**
 “Model-based iterative reconstruction for flat-panel cone-beam CT with
-focal spot blur, detector blur, and correlated noise” Vol: 61, pp: 296,
-DOI:
+focal spot blur, detector blur, and correlated noise” *Physics in
+Medicine and Biology* Vol: 61, pp: 296, DOI:
 [10.1088/0031-9155/61/1/296](https://doi.org/10.1088/0031-9155/61/1/296),
 PMCID:
 [PMC5011041](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5011041),

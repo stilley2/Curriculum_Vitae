@@ -128,10 +128,10 @@ if __name__ == '__main__':
                     _print_wrapper(_fmt_authors(ref.get('author', [])), outstrlist)
                     _print_wrapper(_fmt_issued(ref.get('issued', [])), outstrlist)
                     _print_wrapper(_fmt_title(ref.get('title', '')), outstrlist)
-                    if ref['type'] == 'paper-conference':
+                    if ref['type'] in ['paper-conference', 'article-journal']:
                         _print_wrapper(_fmt_container(ref.get('container-title', '')), outstrlist)
-                    elif ref['type'] == 'article-journal':
-                        _print_wrapper(_fmt_publisher(ref.get('publisher', '')), outstrlist)
+                    # elif ref['type'] == 'article-journal':
+                    #     _print_wrapper(_fmt_publisher(ref.get('publisher', '')), outstrlist)
                     elif ref['type'] == 'speech':
                         _print_wrapper(_fmt_event(ref.get('event', '')), outstrlist)
                     _print_wrapper(_fmt_volume(ref.get('volume', '')), outstrlist)
