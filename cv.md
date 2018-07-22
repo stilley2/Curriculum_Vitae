@@ -364,7 +364,7 @@ references:
       given: J Webster
     - family: Yorkston
       given: John
-    - family: Siewerden
+    - family: Siewerdsen
       given: Jeffrey H
   issued:
     - year: 2015
@@ -636,7 +636,7 @@ references:
       given: Alejandro
     - family: Stayman
       given: J. Webster
-    - family: Siewerden
+    - family: Siewerdsen
       given: Jeffrey H
   issued:
     - year: 2018
@@ -672,6 +672,25 @@ references:
   publisher-place: 'Brussels, Belgium'
   URL: 'https://spie.org/EPE16/conferencedetails/biophotonics-photonic-solutions?SSO=1'
 
+
+- id: TilleyIIModelBasedMaterialDecomposition2018
+  type: paper-conference
+  title: >-
+    Model-Based Material Decomposition for Acquisitions with Relaxed Spectral
+    and Spatial Sampling
+  event: The American Association of Physicists in Medicine Annual Meeting
+  URL: >-
+    https://w3.aapm.org/meetings/2018AM/programInfo/programAbs.php?sid=7548&aid=40935
+  author:
+    - family: Tilley II
+      given: Steven
+    - family: Stayman
+      given: J. Webster
+  issued:
+    - year: 2018
+      month: 7
+      day: 29
+  publisher-place: 'Nashville, TN'
 ---
 
 ## Invited Talks and Seminars
@@ -724,7 +743,7 @@ references:
       given: Alejandro
     - family: Stayman
       given: J Webster
-    - family: Siewerden
+    - family: Siewerdsen
       given: Jeffrey H
   issued:
     - year: 2018
@@ -808,6 +827,7 @@ Skills
 - Machining
 - 3D printing
 - Wiring and soldering
+- Optomechanics
 
 
 ### Computing Tools
@@ -817,6 +837,12 @@ Skills
 
 Professional Activities and Memberships
 =======================================
+
+## Peer Review
+
+--------------  ----------------------------------------------------------------------------------
+2018            IEEE Transactions on Biomedical Engineering
+--------------  ----------------------------------------------------------------------------------
 
 ## Activities
 -----------------  ----------------         ------------------------------------------------------------------

@@ -210,6 +210,11 @@ Mtg. Fully 3D Image Recon. in Radiology and Nuc. Med.* pp: 276-279,
 
 ## Conference Abstracts
 
+**Tilley II, S.**, and Stayman, J. W. **(2018)** “Model-Based Material
+Decomposition for Acquisitions with Relaxed Spectral and Spatial
+Sampling”
+[link](https://w3.aapm.org/meetings/2018AM/programInfo/programAbs.php?sid=7548&aid=40935)
+
 Zbijewski, W., Cao, Q., Brehler, M., **Tilley II, S.**, Sisniega, A.,
 Stayman, J. W., and Siewerden, J. H. **(2018)** “High-resolution imaging
 of bone health” *Bulletin of the American Physical Society*
@@ -315,14 +320,20 @@ Research Award</td>
   - Machining
   - 3D printing
   - Wiring and soldering
+  - Optomechanics
 
 ### Computing Tools
 
   - High Performance Computing Clusters
-  - System Administration
-(Linux)
+  - System Administration (Linux)
 
 # Professional Activities and Memberships
+
+## Peer Review
+
+|      |                                             |
+| :--- | :------------------------------------------ |
+| 2018 | IEEE Transactions on Biomedical Engineering |
 
 ## Activities
 
