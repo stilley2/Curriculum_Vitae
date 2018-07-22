@@ -23,7 +23,7 @@ Contact Information
 ===================
 
 Phone: 401-447-8641  
-Email: [steventilleyii@gmail.com](mailto:steventilleyii@gmail.com)
+Email: [steve@steventilley.com](mailto:steve@steventilley.com)
 
 
 Summary
@@ -678,7 +678,7 @@ references:
   title: >-
     Model-Based Material Decomposition for Acquisitions with Relaxed Spectral
     and Spatial Sampling
-  event: The American Association of Physicists in Medicine Annual Meeting
+  container-title: The American Association of Physicists in Medicine Annual Meeting
   URL: >-
     https://w3.aapm.org/meetings/2018AM/programInfo/programAbs.php?sid=7548&aid=40935
   author:
@@ -842,13 +842,14 @@ Professional Activities and Memberships
 
 --------------  ----------------------------------------------------------------------------------
 2018            IEEE Transactions on Biomedical Engineering
+
 --------------  ----------------------------------------------------------------------------------
 
 ## Activities
------------------  ----------------         ------------------------------------------------------------------
-2013               Director                 3rd Annual Hopkins Imaging Conference, Baltimore, MD 
+--------------  ----------------------------------------------------------------------------------
+2013            Director of the 3rd Annual Hopkins Imaging Conference, Baltimore, MD 
 
------------------  ----------------         ------------------------------------------------------------------
+--------------  ----------------------------------------------------------------------------------
 
 ## Memberships
 
@@ -879,6 +880,6 @@ Volunteering and Outreach
 =========================
 
 -----------------  ----------------         ------------------------------------------------------------------
-2013               Classroom Volunteer      Friendship Academy of Science and Technology, Baltimore, MD
+2013               Classroom Volunteer      Friendship Academy of Science and Technology, Baltimore, MD
 
 -----------------  ----------------         ------------------------------------------------------------------

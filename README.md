@@ -7,7 +7,7 @@ Baltimore, MD 21205
 # Contact Information
 
 Phone: 401-447-8641  
-Email: <steventilleyii@gmail.com>
+Email: <steve@steventilley.com>
 
 # Summary
 
@@ -172,7 +172,7 @@ Bares, A., **Tilley II, S.**, Doerschuk, P. S., and Schaffer, C. B.
 [10.1364/FIO.2015.FTu2D.5](https://doi.org/10.1364/FIO.2015.FTu2D.5)
 
 Zbijewski, W., Cao, Q., **Tilley II, S.**, Sisniega, A., Stayman, J. W.,
-Yorkston, J., and Siewerden, J. H. **(2015)** “Quantitative assessment
+Yorkston, J., and Siewerdsen, J. H. **(2015)** “Quantitative assessment
 of bone and joint health on a dedicated extremities cone-beam CT system”
 *International Journal of Computer Assisted Radiology and Surgery* Vol:
 10, pp: S29-S31, PMCID:
@@ -212,12 +212,13 @@ Mtg. Fully 3D Image Recon. in Radiology and Nuc. Med.* pp: 276-279,
 
 **Tilley II, S.**, and Stayman, J. W. **(2018)** “Model-Based Material
 Decomposition for Acquisitions with Relaxed Spectral and Spatial
-Sampling”
+Sampling” *The American Association of Physicists in Medicine Annual
+Meeting*
 [link](https://w3.aapm.org/meetings/2018AM/programInfo/programAbs.php?sid=7548&aid=40935)
 
 Zbijewski, W., Cao, Q., Brehler, M., **Tilley II, S.**, Sisniega, A.,
-Stayman, J. W., and Siewerden, J. H. **(2018)** “High-resolution imaging
-of bone health” *Bulletin of the American Physical Society*
+Stayman, J. W., and Siewerdsen, J. H. **(2018)** “High-resolution
+imaging of bone health” *Bulletin of the American Physical Society*
 [link](http://meetings.aps.org/Meeting/MAR18/Session/H32.5)
 
 Bares, A. J., **Tilley II, S.**, Mejooli, M. A., Pender, M. A.,
@@ -229,7 +230,7 @@ multiphoton microscopy” *SPIE Photonics Europe*
 ## Invited Talks and Seminars
 
 Zbijewski, W., Cao, Q., **Tilley II, S.**, Brehler, M., Sisniega, A.,
-Stayman, J. W., and Siewerden, J. H. **(2018)** “Quantitative cone-beam
+Stayman, J. W., and Siewerdsen, J. H. **(2018)** “Quantitative cone-beam
 CT: new technologies, algorithms, and applications in orthopedic
 imaging” *SIAM Conference on Imaging Science*
 [link](https://www.siam-is18.dm.unibo.it/presentations/678)
@@ -337,9 +338,9 @@ Research Award</td>
 
 ## Activities
 
-|      |          |                                                      |
-| :--- | :------- | :--------------------------------------------------- |
-| 2013 | Director | 3rd Annual Hopkins Imaging Conference, Baltimore, MD |
+|      |                                                                      |
+| :--- | :------------------------------------------------------------------- |
+| 2013 | Director of the 3rd Annual Hopkins Imaging Conference, Baltimore, MD |
 
 ## Memberships
 
@@ -378,4 +379,4 @@ Johns Hopkins University, Baltimore, MD</td>
 
 |      |                     |                                                             |
 | :--- | ------------------- | :---------------------------------------------------------- |
-| 2013 | Classroom Volunteer | Friendship Academy of Science and Technology, Baltimore, MD |
+| 2013 | Classroom Volunteer | Friendship Academy of Science and Technology, Baltimore, MD |
