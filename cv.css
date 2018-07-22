@@ -6,6 +6,7 @@
 /*https://stackoverflow.com/questions/1229635/aligning-html-headings-with-hanging-section-numbers*/
 .title{
 	text-align: center;
+	font-size: xx-large;
 }
 h1{
 	font-size: 1.75em;
