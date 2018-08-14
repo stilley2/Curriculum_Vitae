@@ -37,6 +37,12 @@ def _fmt_title(title):
         return '', None
 
 
+def _fmt_patent_num(num):
+    if num[:2] != 'US':
+        raise RuntimeError('only US patents supported')
+    return 'U.S. Patent {}'.format(num[2:]), ' '
+
+
 def _fmt_issued(issued):
     if len(issued) == 0:
         return '', None
@@ -125,21 +131,28 @@ if __name__ == '__main__':
             if len(data) == 1 and 'references' in data.keys():
                 for ref in sorted(data['references'], key=_sort_key, reverse=True):
                     outstrlist = []
-                    _print_wrapper(_fmt_authors(ref.get('author', [])), outstrlist)
-                    _print_wrapper(_fmt_issued(ref.get('issued', [])), outstrlist)
-                    _print_wrapper(_fmt_title(ref.get('title', '')), outstrlist)
-                    if ref['type'] in ['paper-conference', 'article-journal']:
-                        _print_wrapper(_fmt_container(ref.get('container-title', '')), outstrlist)
-                    # elif ref['type'] == 'article-journal':
-                    #     _print_wrapper(_fmt_publisher(ref.get('publisher', '')), outstrlist)
-                    elif ref['type'] == 'speech':
-                        _print_wrapper(_fmt_event(ref.get('event', '')), outstrlist)
-                    _print_wrapper(_fmt_volume(ref.get('volume', '')), outstrlist)
-                    _print_wrapper(_fmt_page(ref.get('page', '')), outstrlist)
-                    _print_wrapper(_fmt_doi(ref.get('DOI', '')), outstrlist)
-                    _print_wrapper(_fmt_pmcid(ref.get('PMCID', '')), outstrlist)
-                    _print_wrapper(_fmt_arxiv(ref.get('arXiv', '')), outstrlist)
-                    _print_wrapper(_fmt_url(ref.get('URL', '')), outstrlist)
+                    if ref['type'] == 'patent':
+                        _print_wrapper(_fmt_authors(ref.get('author', [])), outstrlist)
+                        _print_wrapper(_fmt_issued(ref.get('issued', [])), outstrlist)
+                        _print_wrapper(_fmt_title(ref.get('title', '')), outstrlist)
+                        _print_wrapper(_fmt_patent_num(ref.get('number', '')), outstrlist)
+                        _print_wrapper(_fmt_url(ref.get('URL', '')), outstrlist)
+                    else:
+                        _print_wrapper(_fmt_authors(ref.get('author', [])), outstrlist)
+                        _print_wrapper(_fmt_issued(ref.get('issued', [])), outstrlist)
+                        _print_wrapper(_fmt_title(ref.get('title', '')), outstrlist)
+                        if ref['type'] in ['paper-conference', 'article-journal']:
+                            _print_wrapper(_fmt_container(ref.get('container-title', '')), outstrlist)
+                        # elif ref['type'] == 'article-journal':
+                        #     _print_wrapper(_fmt_publisher(ref.get('publisher', '')), outstrlist)
+                        elif ref['type'] == 'speech':
+                            _print_wrapper(_fmt_event(ref.get('event', '')), outstrlist)
+                        _print_wrapper(_fmt_volume(ref.get('volume', '')), outstrlist)
+                        _print_wrapper(_fmt_page(ref.get('page', '')), outstrlist)
+                        _print_wrapper(_fmt_doi(ref.get('DOI', '')), outstrlist)
+                        _print_wrapper(_fmt_pmcid(ref.get('PMCID', '')), outstrlist)
+                        _print_wrapper(_fmt_arxiv(ref.get('arXiv', '')), outstrlist)
+                        _print_wrapper(_fmt_url(ref.get('URL', '')), outstrlist)
 
                     print(''.join(outstrlist[:-1]), end='\n\n')
             else:

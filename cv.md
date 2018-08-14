@@ -775,6 +775,59 @@ references:
 
 ---
 
+
+## Submitted
+
+---
+references:
+
+- id: faisal
+  type: paper-conference
+  title: >-
+    Robust photometric stereo endoscopy via deep learning trained on
+    synthetic data
+  container-title: SPIE Photonics West BIOS
+  publisher: International Society for Optics and Photonics
+  author:
+    - family: Mahmood
+      given: Faisal
+    - given: Daniel
+      family: Borders
+    - given: Richard
+      family: Chen
+    - given: Norman S.
+      family: Nishioka
+    - given: Steven
+      family: Tilley II
+    - given: J. Webster
+      family: Stayman
+    - given: Nicholas J.
+      family: Durr
+  issued:
+    - year: 2019
+  publisher-place: 'San Francisco, CA'
+
+- id: tivnan
+  type: paper-conference
+  title: >-
+    Physical Modeling and Performance of Spatial-Spectral
+    Filters for CT Material Decomposition
+  container-title: SPIE Medical Imaging
+  publisher: International Society for Optics and Photonics
+  author:
+    - family: Tivnan
+      given: Matthew
+    - family: Tilley II
+      given: Steven
+    - family: Stayman
+      given: J. Webster
+  issued:
+    - year: 2019
+  publisher-place: 'San Diego, CA'
+
+---
+
+
 ## Patents
 
 ---
@@ -790,7 +843,7 @@ references:
       given: Amanda J.
     - family: Schaffer
       given: Chris B.
-    - family: Tilley
+    - family: Tilley II
       given: Steven
   issued:
     - year: 2018
@@ -805,7 +858,7 @@ references:
       - - '2017'
         - 10
         - 19
-...
+---
 
 
 Funding and Awards
