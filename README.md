@@ -294,28 +294,31 @@ Research Award</td>
 
 # Skills
 
-### Imaging Systems
+## Imaging Systems
 
   - Cone-beam computed tomography
   - Multiphoton microscopy
   - Data acquisition and processing
   - System characterization and modeling
+  - CT geometry calibration
 
-### Mathematical Techniques
+## Mathematical Techniques
 
   - Estimation theory
   - Optimization
   - Algorithm development and implementation
 
-### Programming
+## Software Development
 
   - Python
   - CUDA
   - C/C++
-  - Matlab
+  - MATLAB
   - Hardware interfacing
+  - Conda build tools
+  - GitLab CI
 
-### Design and Construction
+## Design and Construction
 
   - CAD (SolidWorks, OpenSCAD)
   - Machining
@@ -323,7 +326,7 @@ Research Award</td>
   - Wiring and soldering
   - Optomechanics
 
-### Computing Tools
+## Computing Tools
 
   - High Performance Computing Clusters
   - System Administration (Linux)

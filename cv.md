@@ -775,6 +775,38 @@ references:
 
 ---
 
+## Patents
+
+---
+references:
+- id: BaresHyperspectralmultiphotonmicroscope2018
+  type: patent
+  title: Hyperspectral multiphoton microscope for biomedical applications
+  URL: 'https://patents.google.com/patent/US20180196246A1/en'
+  call-number: US15788778
+  number: US20180196246A1
+  author:
+    - family: Bares
+      given: Amanda J.
+    - family: Schaffer
+      given: Chris B.
+    - family: Tilley
+      given: Steven
+  issued:
+    - year: 2018
+      month: 7
+      day: 12
+  accessed:
+    - year: 2018
+      month: 8
+      day: 13
+  submitted:
+    date-parts:
+      - - '2017'
+        - 10
+        - 19
+...
+
 
 Funding and Awards
 ======
@@ -804,25 +836,28 @@ Skills
 ======
 
 
-### Imaging Systems
+## Imaging Systems
 - Cone-beam computed tomography
 - Multiphoton microscopy
 - Data acquisition and processing
 - System characterization and modeling
+- CT geometry calibration
 
-### Mathematical Techniques
+## Mathematical Techniques
 - Estimation theory
 - Optimization
 - Algorithm development and implementation
 
-### Programming
+## Software Development
 - Python
 - CUDA
 - C/C++
-- Matlab
-- Hardware interfacing    
+- MATLAB
+- Hardware interfacing
+- Conda build tools
+- GitLab CI
 
-### Design and Construction
+## Design and Construction
 - CAD (SolidWorks, OpenSCAD)
 - Machining
 - 3D printing
@@ -830,7 +865,7 @@ Skills
 - Optomechanics
 
 
-### Computing Tools
+## Computing Tools
 - High Performance Computing Clusters
 - System Administration (Linux)
 
