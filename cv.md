@@ -76,13 +76,6 @@ Professional Experience
 -----------------  ----------------         ------------------------------------------------------------------
 
 
-
-
-Publications
-====================
-
-## Journal Articles
-
 ---
 references:
 - id: TilleyII2015a
@@ -114,6 +107,8 @@ references:
       month: 12
       day: 9
   container-title-short: Phys. Med. Biol.
+  tags:
+    - journal
 
 - id: TilleyPenalizedLikelihoodReconstructionHighFidelity2017
   type: article-journal
@@ -145,13 +140,151 @@ references:
   issued:
     - year: 2017
   arXiv: 1712.05297
----
+  tags:
+    - journal
 
+- id: TilleyIIModelBasedMaterialDecomposition2018a
+  type: article-journal
+  title: >-
+    Model-based material decomposition with a penalized nonlinear least-squares
+    CT reconstruction algorithm
+  container-title: Physics in Medicine and Biology (in review)
+  author:
+    - family: Tilley II
+      given: Steven
+    - family: Zbijewski
+      given: Wojciech
+    - family: Stayman
+      given: J Webster
+  issued:
+    - year: 2018
+  tags:
+    - journal
 
-## Conference Publications
+- id: Tilley2015
+  type: paper-conference
+  title: >-
+    Generalized penalized weighted least-squares reconstruction for deblurred
+    flat-panel CBCT
+  container-title: Intl. Mtg. Fully 3D Image Recon. in Radiology and Nuc. Med.
+  author:
+    - family: Tilley II
+      given: Steven
+    - family: Siewerdsen
+      given: Jeffrey H
+    - family: Stayman
+      given: J Webster
+  issued:
+    - year: 2015
+      month: 5
+      day: 31
+  page: 236-239
+  URL: http://www.fully3d.org/2015/Fully3D_Proceedings_2015.pdf
+  tags:
+    - proceedings
+    - oral
 
----
-references:
+- id: tilley_nonlinear_2016
+  type: paper-conference
+  title: >-
+    Nonlinear statistical reconstruction for flat-panel cone-beam CT with blur
+    and correlated noise models
+  container-title: 'SPIE Medical Imaging'
+  volume: '9783'
+  source: Silverchair
+  DOI: 10.1117/12.2216126
+  author:
+    - family: Tilley II
+      given: Steven
+    - family: Siewerdsen
+      given: Jeffrey H.
+    - family: Zbijewski
+      given: Wojciech
+    - family: Stayman
+      given: J. W.
+  issued:
+    - year: 2016
+      month: 3
+      day: 22
+  accessed:
+    - year: 2016
+      month: 6
+      day: 3
+  PMCID: PMC4837455
+  tags:
+    - proceedings
+    - oral
+
+- id: tilley_ii_general_2018
+  type: paper-conference
+  title: A general CT reconstruction algorithm for model-based material decomposition
+  container-title: SPIE Medical Imaging
+  publisher: International Society for Optics and Photonics
+  author:
+    - family: Tilley II
+      given: Steven
+    - family: Zbijewski
+      given: Wojciech
+    - family: Stayman
+      given: J. Webster
+  issued:
+    - year: 2018
+      month: 2
+      day: 10
+  publisher-place: 'Houston, TX'
+  volume: 10573
+  DOI: 10.1117/12.2293776
+  tags:
+    - proceedings
+    - oral
+
+- id: faisal
+  type: paper-conference
+  title: >-
+    Robust photometric stereo endoscopy via deep learning trained on
+    synthetic data
+  container-title: SPIE Photonics West BIOS (accepted)
+  publisher: International Society for Optics and Photonics
+  author:
+    - family: Mahmood
+      given: Faisal
+    - given: Daniel
+      family: Borders
+    - given: Richard
+      family: Chen
+    - given: Norman S.
+      family: Nishioka
+    - given: Steven
+      family: Tilley II
+    - given: J. Webster
+      family: Stayman
+    - given: Nicholas J.
+      family: Durr
+  issued:
+    - year: 2019
+  publisher-place: 'San Francisco, CA'
+  tags:
+    - proceedings
+
+- id: tivnan
+  type: paper-conference
+  title: >-
+    Physical modeling and performance of spatial-spectral
+    filters for CT material decomposition
+  container-title: SPIE Medical Imaging (accepted)
+  publisher: International Society for Optics and Photonics
+  author:
+    - family: Tivnan
+      given: Matthew
+    - family: Tilley II
+      given: Steven
+    - family: Stayman
+      given: J. Webster
+  issued:
+    - year: 2019
+  publisher-place: 'San Diego, CA'
+  tags:
+    - proceedings
 
 - id: StaymanIntegrationComponentKnowledge2014
   type: paper-conference
@@ -177,6 +310,8 @@ references:
       day: 23
   PMID: '25360443'
   PMCID: PMC4211110
+  tags:
+    - proceedings
 
 - id: ZbijewskiVolumetricImagingSparse2013
   type: paper-conference
@@ -210,6 +345,8 @@ references:
       month: 3
       day: 22
   publisher-place: 'Lake Tahoe, California'
+  tags:
+    - proceedings
 
 - id: CaoHighresolutionextremityconebeam2018
   type: paper-conference
@@ -250,6 +387,8 @@ references:
       month: 6
       day: 12
   title-short: High-resolution extremity cone-beam CT with a CMOS detector
+  tags:
+    - proceedings
 
 - id: Staymana
   type: paper-conference
@@ -275,6 +414,8 @@ references:
       day: 19
       month: 3
   publisher-place: 'San Diego, CA'
+  tags:
+    - proceedings
 
 - id: TilleyII2014a
   type: paper-conference
@@ -295,11 +436,14 @@ references:
       month: 6
       day: 22
   PMCID: PMC4207223
+  tags:
+    - proceedings
+    - poster
 
 - id: Bares15
   type: paper-conference
   title: >-
-    Hyperspectral multiphoton microscopy: Demonstration of 48-channel imaging in
+    Hyperspectral multiphoton microscopy: demonstration of 48-channel imaging in
     vivo
   container-title: Frontiers in Optics
   publisher: Optical Society of America
@@ -319,26 +463,8 @@ references:
     - year: 2015
       month: 10
       day: 18
-
-- id: Tilley2015
-  type: paper-conference
-  title: >-
-    Generalized penalized weighted least-squares reconstruction for deblurred
-    flat-panel CBCT
-  container-title: Intl. Mtg. Fully 3D Image Recon. in Radiology and Nuc. Med.
-  author:
-    - family: Tilley II
-      given: Steven
-    - family: Siewerdsen
-      given: Jeffrey H
-    - family: Stayman
-      given: J Webster
-  issued:
-    - year: 2015
-      month: 5
-      day: 31
-  page: 236-239
-  URL: http://www.fully3d.org/2015/Fully3D_Proceedings_2015.pdf
+  tags:
+    - proceedings
 
 - id: ZbijewskiQuantitativeAssessmentBone2015
   type: paper-conference
@@ -377,6 +503,8 @@ references:
   PMID: '26045726'
   PMCID: PMC4451217
   container-title-short: Int J Comput Assist Radiol Surg
+  tags:
+    - proceedings
 
 - id: bares_hyperspectral_2016
   type: paper-conference
@@ -415,6 +543,8 @@ references:
     - year: 2017
       month: 5
       day: 19
+  tags:
+    - proceedings
 
 - id: 'mathews:16:dod'
   type: paper-conference
@@ -444,6 +574,8 @@ references:
       month: 7
       day: 18
   PMCID: PMC5370167
+  tags:
+    - proceedings
 
 - id: 'tilley:16:msv'
   type: paper-conference
@@ -466,34 +598,9 @@ references:
       day: 18
   PMCID: PMC5370169
   arXiv: 1610.05288
-
-- id: tilley_nonlinear_2016
-  type: paper-conference
-  title: >-
-    Nonlinear statistical reconstruction for flat-panel cone-beam CT with blur
-    and correlated noise models
-  container-title: 'SPIE Medical Imaging'
-  volume: '9783'
-  source: Silverchair
-  DOI: 10.1117/12.2216126
-  author:
-    - family: Tilley II
-      given: Steven
-    - family: Siewerdsen
-      given: Jeffrey H.
-    - family: Zbijewski
-      given: Wojciech
-    - family: Stayman
-      given: J. W.
-  issued:
-    - year: 2016
-      month: 3
-      day: 22
-  accessed:
-    - year: 2016
-      month: 6
-      day: 3
-  PMCID: PMC4837455
+  tags:
+    - proceedings
+    - poster
 
 - id: tilley_ii_high-fidelity_2017
   type: paper-conference
@@ -515,6 +622,9 @@ references:
   publisher-place: 'Xi''an, China'
   arXiv: 1706.08946
   page: 752-759
+  tags:
+    - proceedings
+    - poster
 
 - id: zhang_deformable_2017
   type: paper-conference
@@ -547,26 +657,8 @@ references:
       month: 6
       day: 27
   DOI: 10.1117/12.2255303
-
-- id: tilley_ii_general_2018
-  type: paper-conference
-  title: A general CT reconstruction algorithm for model-based material decomposition
-  container-title: SPIE Medical Imaging
-  publisher: International Society for Optics and Photonics
-  author:
-    - family: Tilley II
-      given: Steven
-    - family: Zbijewski
-      given: Wojciech
-    - family: Stayman
-      given: J. Webster
-  issued:
-    - year: 2018
-      month: 2
-      day: 10
-  publisher-place: 'Houston, TX'
-  volume: 10573
-  DOI: 10.1117/12.2293776
+  tags:
+    - proceedings
 
 - id: TilleyIIHighFidelityModelingDetector2018
   type: paper-conference
@@ -589,6 +681,9 @@ references:
       day: 20
   page: 318-322
   arXiv: 1805.11631
+  tags:
+    - proceedings
+    - poster
 
 - id: StaymanModelbasedmultimaterialdecomposition2018
   type: paper-conference
@@ -607,14 +702,9 @@ references:
   publisher-place: 'Salt Lake City, Utah, US'
   page: 102-105
   URL: http://www.ucair.med.utah.edu/CTmeeting/CT2018_Proceedings.pdf
+  tags:
+    - proceedings
 
----
-
-## Conference Abstracts
-
----
-
-references:
 - id: ZbijewskiHighResolutionImagingBone2018
   type: paper-conference
   title: High-resolution imaging of bone health
@@ -647,6 +737,8 @@ references:
       month: 3
       day: 23
   publisher-place: 'Los Angeles, California'
+  tags:
+    - abstract
 
 - id: Bares2016
   type: speech
@@ -671,13 +763,15 @@ references:
     - year: 2016
   publisher-place: 'Brussels, Belgium'
   URL: 'https://spie.org/EPE16/conferencedetails/biophotonics-photonic-solutions?SSO=1'
+  tags:
+    - abstract
 
 
 - id: TilleyIIModelBasedMaterialDecomposition2018
   type: paper-conference
   title: >-
-    Model-Based Material Decomposition for Acquisitions with Relaxed Spectral
-    and Spatial Sampling
+    Model-based material decomposition for acquisitions with relaxed spectral
+    and spatial sampling
   container-title: The American Association of Physicists in Medicine Annual Meeting
   URL: >-
     https://w3.aapm.org/meetings/2018AM/programInfo/programAbs.php?sid=7548&aid=40935
@@ -691,12 +785,10 @@ references:
       month: 7
       day: 29
   publisher-place: 'Nashville, TN'
----
+  tags:
+    - abstract
+    - oral
 
-## Invited Talks and Seminars
-
----
-references:
 - id: Tilley_CIS
   type: speech
   title: >-
@@ -710,12 +802,16 @@ references:
     - year: 2018
       month: 3
       day: 27
+  tags:
+    - seminar
+    - seminarorinvited
+    - oral
 
 - id: Tilley_BME
   type: speech
   title: >-
     A general CT reconstruction algorithm for model-based material decomposition
-  event: BME Seminar Student Presentations, Johns Hopkins University
+  event: BME Student Seminar Series, Johns Hopkins University
   author:
     - family: Tilley II
       given: Steven
@@ -723,6 +819,10 @@ references:
     - year: 2018
       month: 3
       day: 26
+  tags:
+    - seminar
+    - seminarorinvited
+    - oral
 
 - id: ZbijewskiQuantitativeConeBeamCT2018
   type: speech
@@ -750,19 +850,16 @@ references:
       month: 6
   event-place: 'Bologna, Italy'
   URL: 'https://www.siam-is18.dm.unibo.it/presentations/678'
----
-
-## Other Conference Presentations
-
----
-references:
+  tags:
+    - invited
+    - seminarorinvited
 
 - id: TilleyII2015
   type: speech
   title: >-
     High resolution CBCT with blur and correlated noise models in a non-linear
     reconstruction algorithm
-  event: The 5th Annual Hopkins Imaging Conference
+  event: The 5th Annual Hopkins Imaging Conference, Johns Hopkins University
   author:
     - family: Tilley II
       given: Steven
@@ -772,66 +869,31 @@ references:
       given: J Webster
   issued:
     - year: 2015
+  extra:
+    - talk
+  tags:
+    - oral
+    - other
 
----
-
-
-## Submitted
-
----
-references:
-
-- id: faisal
-  type: paper-conference
+- id: TilleyII2011
+  type: poster
   title: >-
-    Robust photometric stereo endoscopy via deep learning trained on
-    synthetic data
-  container-title: SPIE Photonics West BIOS
-  publisher: International Society for Optics and Photonics
+    Construction of a high efficiency four channel 2 photon excited fluorescence microscope
+  event: 26th Annual Undergraduate Spring Research Forum, Cornell University
+  place: Ithaca, NY
   author:
-    - family: Mahmood
-      given: Faisal
-    - given: Daniel
-      family: Borders
-    - given: Richard
-      family: Chen
-    - given: Norman S.
-      family: Nishioka
-    - given: Steven
-      family: Tilley II
-    - given: J. Webster
-      family: Stayman
-    - given: Nicholas J.
-      family: Durr
-  issued:
-    - year: 2019
-  publisher-place: 'San Francisco, CA'
-
-- id: tivnan
-  type: paper-conference
-  title: >-
-    Physical Modeling and Performance of Spatial-Spectral
-    Filters for CT Material Decomposition
-  container-title: SPIE Medical Imaging
-  publisher: International Society for Optics and Photonics
-  author:
-    - family: Tivnan
-      given: Matthew
     - family: Tilley II
       given: Steven
-    - family: Stayman
-      given: J. Webster
+    - family: Schaffer
+      given: Chris B.
   issued:
-    - year: 2019
-  publisher-place: 'San Diego, CA'
+    - year: 2011
+  extra:
+    - poster
+  tags:
+    - poster
+    - other
 
----
-
-
-## Patents
-
----
-references:
 - id: BaresHyperspectralmultiphotonmicroscope2018
   type: patent
   title: Hyperspectral multiphoton microscope for biomedical applications
@@ -858,6 +920,8 @@ references:
       - - '2017'
         - 10
         - 19
+  tags:
+    - patent
 ---
 
 
@@ -865,8 +929,8 @@ Funding and Awards
 ======
 
 -----------------  ----------------         ------------------------------------------------------------------
-2017-2019          F31 EB023783             National Institute of Biomedical Imaging and Bioengineering \
-                                            _Model-based reconstruction for high-spatial resolution cone-beam computed
+2017-2019          F31 EB023783 \           National Institute of Biomedical Imaging and Bioengineering \
+                   ~$87,000                 _Model-based reconstruction for high-spatial resolution cone-beam computed
                                             tomography_
 
 2017               Travel Award             14th International Conference on Fully Three-Dimensional Image
@@ -875,8 +939,8 @@ Funding and Awards
 2015               Travel Award             13th International Conference on Fully Three-Dimensional Image
                                             Reconstruction in Radiology and Nuclear Medicine
 
-2012-2014          T32 EB010021             National Institute of Biomedical Imaging and Bioengineering \
-                                            _Training program in translational research in imaging_
+2012-2014          T32 EB010021 \           National Institute of Biomedical Imaging and Bioengineering \
+                   ~$44,000                 _Training program in translational research in imaging_
 
 2010               Undergraduate \          Engineering Learning Initiatives \
                    Research Award           _Design and construction of a four-channel two-photon excited fluorescence

@@ -2,11 +2,59 @@ from datetime import datetime
 import sys
 import yaml
 
+STRUCTURE = (('Journal Articles', ['journal'],
+                  ()
+              ),
+             ('Conference Publications', ['proceedings'],
+                  (('Oral Presentation', ['oral'], ()),
+                   ('Poster Presentation', ['poster'], ()),
+                   ('Coauthor', [], ())),
+              ),
+             ('Conference Abstracts', ['abstract'],
+                  (('Oral Presentation', ['oral'], ()),
+                   # ('Poster Presentation', ['poster'], ()),
+                   ('Coauthor', [], ())),
+              ),
+             ('Invited Talks and Seminars', ['seminarorinvited'],
+                  (('Oral Presentation', ['oral'], ()),
+                   ('Coauthor', [], ())),
+              ),
+             ('Other Presentations', ['other'],
+                  (('Oral Presentation', ['oral'], ()),
+                   ('Poster Presentation', ['poster'], ()))
+              ),
+             ('Patents', ['patent'], ())
+             )
+
+
+def structiter(s, taglist=None, level=1):
+    if taglist is None:
+        taglist = []
+    for header, tags, sub in s:
+        print('{} {}'.format('#' * level, header))
+        if len(sub) == 0:
+            yield taglist + tags
+        else:
+            yield from structiter(sub, taglist=tags, level=level + 1)
+
+
+def tagfilter(entries, tags):
+    match = []
+    nomatch = []
+    for e in entries:
+        if all([t in e['tags'] for t in tags]):
+            match.append(e)
+        else:
+            nomatch.append(e)
+    return match, nomatch
+
 
 def _fmt_authors(authors):
     if len(authors) == 1:
         out = '{} '.format(_fmt_author(authors[0]))
-    elif len(authors) > 1:
+    elif len(authors) == 2:
+        out = '{} and {}'.format(_fmt_author(authors[0]), _fmt_author(authors[1]))
+    elif len(authors) > 2:
         out = ', '.join(_fmt_author(author) for author in authors[:-1])
         out += ', and {}'.format(_fmt_author(authors[-1]))
     else:
@@ -129,32 +177,36 @@ if __name__ == '__main__':
                 yamlblock += l
             data = yaml.load(yamlblock)
             if len(data) == 1 and 'references' in data.keys():
-                for ref in sorted(data['references'], key=_sort_key, reverse=True):
-                    outstrlist = []
-                    if ref['type'] == 'patent':
-                        _print_wrapper(_fmt_authors(ref.get('author', [])), outstrlist)
-                        _print_wrapper(_fmt_issued(ref.get('issued', [])), outstrlist)
-                        _print_wrapper(_fmt_title(ref.get('title', '')), outstrlist)
-                        _print_wrapper(_fmt_patent_num(ref.get('number', '')), outstrlist)
-                        _print_wrapper(_fmt_url(ref.get('URL', '')), outstrlist)
-                    else:
-                        _print_wrapper(_fmt_authors(ref.get('author', [])), outstrlist)
-                        _print_wrapper(_fmt_issued(ref.get('issued', [])), outstrlist)
-                        _print_wrapper(_fmt_title(ref.get('title', '')), outstrlist)
-                        if ref['type'] in ['paper-conference', 'article-journal']:
-                            _print_wrapper(_fmt_container(ref.get('container-title', '')), outstrlist)
-                        # elif ref['type'] == 'article-journal':
-                        #     _print_wrapper(_fmt_publisher(ref.get('publisher', '')), outstrlist)
-                        elif ref['type'] == 'speech':
-                            _print_wrapper(_fmt_event(ref.get('event', '')), outstrlist)
-                        _print_wrapper(_fmt_volume(ref.get('volume', '')), outstrlist)
-                        _print_wrapper(_fmt_page(ref.get('page', '')), outstrlist)
-                        _print_wrapper(_fmt_doi(ref.get('DOI', '')), outstrlist)
-                        _print_wrapper(_fmt_pmcid(ref.get('PMCID', '')), outstrlist)
-                        _print_wrapper(_fmt_arxiv(ref.get('arXiv', '')), outstrlist)
-                        _print_wrapper(_fmt_url(ref.get('URL', '')), outstrlist)
+                unused = data['references']
+                for tags in structiter(STRUCTURE):
+                    match, unused = tagfilter(unused, tags)
+                    for ref in sorted(match, key=_sort_key, reverse=True):
+                        outstrlist = []
+                        if ref['type'] == 'patent':
+                            _print_wrapper(_fmt_authors(ref.get('author', [])), outstrlist)
+                            _print_wrapper(_fmt_issued(ref.get('issued', [])), outstrlist)
+                            _print_wrapper(_fmt_title(ref.get('title', '')), outstrlist)
+                            _print_wrapper(_fmt_patent_num(ref.get('number', '')), outstrlist)
+                            _print_wrapper(_fmt_url(ref.get('URL', '')), outstrlist)
+                        else:
+                            _print_wrapper(_fmt_authors(ref.get('author', [])), outstrlist)
+                            _print_wrapper(_fmt_issued(ref.get('issued', [])), outstrlist)
+                            _print_wrapper(_fmt_title(ref.get('title', '')), outstrlist)
+                            if ref['type'] in ['paper-conference', 'article-journal']:
+                                _print_wrapper(_fmt_container(ref.get('container-title', '')), outstrlist)
+                            # elif ref['type'] == 'article-journal':
+                            #     _print_wrapper(_fmt_publisher(ref.get('publisher', '')), outstrlist)
+                            elif ref['type'] in ['speech', 'poster']:
+                                _print_wrapper(_fmt_event(ref.get('event', '')), outstrlist)
+                            _print_wrapper(_fmt_volume(ref.get('volume', '')), outstrlist)
+                            _print_wrapper(_fmt_page(ref.get('page', '')), outstrlist)
+                            _print_wrapper(_fmt_doi(ref.get('DOI', '')), outstrlist)
+                            _print_wrapper(_fmt_pmcid(ref.get('PMCID', '')), outstrlist)
+                            _print_wrapper(_fmt_arxiv(ref.get('arXiv', '')), outstrlist)
+                            _print_wrapper(_fmt_url(ref.get('URL', '')), outstrlist)
 
-                    print(''.join(outstrlist[:-1]), end='\n\n')
+                        print(''.join(outstrlist[:-1]), end='\n\n')
+                assert len(unused) == 0
             else:
                 print('---')
                 print(yamlblock, end='')
