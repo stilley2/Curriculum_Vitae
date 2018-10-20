@@ -972,6 +972,7 @@ Skills
 - MATLAB
 - Hardware interfacing
 - Conda build tools
+- Git
 - GitLab CI
 
 ## Design and Construction
