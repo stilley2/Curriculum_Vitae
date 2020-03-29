@@ -9,8 +9,8 @@ subparagraph: yes
 Current Position
 ================
 
-X-Ray Imaging System and Algorithm Developer
-KA Imaging
+X-Ray Imaging System and Algorithm Developer  
+KA Imaging  
 Waterloo, ON
 
 
