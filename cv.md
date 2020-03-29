@@ -9,9 +9,9 @@ subparagraph: yes
 Current Position
 ================
 
-Imaging Analyst  
-Holland Bloorview Kids Rehabilitation Hospital  
-Toronto, ON, M4G 1R8
+X-Ray Imaging System and Algorithm Developer
+KA Imaging
+Waterloo, ON
 
 
 Contact Information
