@@ -1034,24 +1034,25 @@ references:
 - id: BaresHyperspectralmultiphotonmicroscope2018
   type: patent
   title: Hyperspectral multiphoton microscope for biomedical applications
-  URL: 'https://patents.google.com/patent/US20180196246A1/en'
-  call-number: US15788778
-  number: US20180196246A1
+  URL: 'https://patents.google.com/patent/US10394008B2/en'
+  call-number: 'US15/788,778'
+  number: US10394008B2
+  language: en
   author:
     - family: Bares
       given: Amanda J.
     - family: Schaffer
       given: Chris B.
-    - family: Tilley II
+    - family: Tilley
       given: Steven
   issued:
-    - year: 2018
-      month: 7
-      day: 12
-  accessed:
-    - year: 2018
+    - year: 2019
       month: 8
-      day: 13
+      day: 27
+  accessed:
+    - year: 2020
+      month: 3
+      day: 29
   submitted:
     date-parts:
       - - '2017'
@@ -1059,6 +1060,7 @@ references:
         - 19
   tags:
     - patent
+
 
 - id: 10.1117/12.2534333
   type: paper-conference
