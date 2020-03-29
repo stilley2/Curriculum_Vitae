@@ -1,24 +1,21 @@
 # Current Position
 
-Ph.D. Candidate  
-AIAI Lab, Johns Hopkins University  
-Baltimore, MD 21205
+Imaging Analyst  
+Holland Bloorview Kids Rehabilitation Hospital  
+Toronto, ON, M4G 1R8
 
 # Contact Information
 
-Phone: 401-447-8641  
+83 Florence Ave Toronto, ON, M2N 1G2 Phone: 647-627-8641  
 Email: <steve@steventilley.com>
 
 # Summary
 
 I have been an imaging researcher since 2009, and have experience in
 tomographic reconstruction, the design, construction, and
-characterization of imaging systems, software-hardware interfacing, and
-image processing. My graduate research has been on CT reconstruction
-algorithms, where I improve image quality by combining advanced
-statistical and physical models with custom optimization algorithms. As
-an undergraduate I worked on design and construction of novel
-multiphoton microscopes.
+characterization of imaging systems, software-hardware interfacing,
+image processing, and developing pipelines for large scale image
+analysis.
 
 # Education
 
@@ -30,11 +27,11 @@ multiphoton microscopes.
 </colgroup>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">2018 (expected)</td>
+<td style="text-align: left;">2019</td>
 <td>Ph.D., Biomedical<br />
 Engineering</td>
 <td style="text-align: left;">Johns Hopkins University, Baltimore, MD<br />
-Thesis Title (tentative): <em>Improving CT image quality and accuracy using model-based iterative reconstruction with high-fidelity system and noise models</em><br />
+Thesis Title: <em>High-quality computed tomography using advanced model-based iterative reconstruction</em><br />
 Thesis Advisor: J. Webster Stayman</td>
 </tr>
 <tr class="even">
@@ -58,24 +55,32 @@ Thesis Advisor: Chris Schaffer</td>
 </colgroup>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">2012-Present</td>
-<td>Graduate Researcher</td>
+<td style="text-align: left;">2019-present</td>
+<td style="text-align: left;">Imaging Analyst</td>
+<td style="text-align: left;">Population Neuroscience &amp; Developmental Neuroimaging<br />
+Bloorview Research Institute<br />
+Holland Bloorview Kids Rehabilitation Hospital, Toronto, ON<br />
+Supervisor: Tomáš Paus</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2012-2019</td>
+<td style="text-align: left;">Graduate Researcher</td>
 <td style="text-align: left;">I-STAR Lab and AIAI Lab<br />
 Department of Biomedical Engineering<br />
 Johns Hopkins University, Baltimore, MD<br />
 Advisor: J. Webster Stayman, Rotation Advisors: Wojciech Zbijewski, Natalia Trayanova</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">2012</td>
-<td>Temporary Service<br />
+<td style="text-align: left;">Temporary Service<br />
 Technician</td>
 <td style="text-align: left;">Schaffer Lab<br />
 Cornell University, Ithaca, NY<br />
 Supervisor: Chris Schaffer</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">2009-2012</td>
-<td>Undergraduate Researcher</td>
+<td style="text-align: left;">Undergraduate Researcher</td>
 <td style="text-align: left;">Schaffer Lab<br />
 Cornell University, Ithaca, NY<br />
 Advisor: Chris Schaffer</td>
@@ -83,12 +88,33 @@ Advisor: Chris Schaffer</td>
 </tbody>
 </table>
 
+# Theses
+
+**Tilley II, S.** **(2019)** “High-quality computed tomography using
+advanced model-based iterative reconstruction” Ph.D. Dissertation,
+Department of Biomedical Engineering, Johns Hopkins University,
+Baltimore, MD,
+[link](https://jscholarship.library.jhu.edu/handle/1774.2/61473)
+
+**Tilley II, S.** **(2012)** “Construction and assessment of a high
+performance four channel multiphoton microscope for deep imaging”
+Undegrated Honors Thesis, Department of Biological and Environmental
+Engineering, Cornell University, Ithaca, NY
+
 # Journal Articles
+
+Hehn, L., **Tilley II, S.**, Pfeiffer, F., and Stayman, J. W. **(2019)**
+“Blind deconvolution in model-based iterative reconstruction for CT
+using a normalized sparsity measure” *Physics in Medicine and Biology*
+Vol: 64, DOI:
+[10.1088/1361-6560/ab489e](https://doi.org/10.1088/1361-6560/ab489e)
 
 **Tilley II, S.**, Zbijewski, W., and Stayman, J. W. **(2018)**
 “Model-based material decomposition with a penalized nonlinear
 least-squares CT reconstruction algorithm” *Physics in Medicine and
-Biology (in review)*
+Biology* DOI:
+[10.1088/1361-6560/aaf973](https://doi.org/10.1088/1361-6560/aaf973),
+[link](https://steventilley.com/Tilley_Model-based_2018.pdf)
 
 **Tilley II, S.**, Jacobson, M., Cao, Q., Brehler, M., Sisniega, A.,
 Zbijewski, W., and Stayman, J. W. **(2017)** “Penalized-likelihood
@@ -109,7 +135,7 @@ arXiv: [1706.05418](https://arxiv.org/abs/1706.05418)
 
 # Conference Publications
 
-## Oral Presentation
+## Oral Presentations
 
 **Tilley II, S.**, Zbijewski, W., and Stayman, J. W. **(2018)** “A
 general CT reconstruction algorithm for model-based material
@@ -129,7 +155,7 @@ deblurred flat-panel CBCT” *Intl. Mtg. Fully 3D Image Recon. in
 Radiology and Nuc. Med.* pp: 236-239,
 [link](http://www.fully3d.org/2015/Fully3D_Proceedings_2015.pdf)
 
-## Poster Presentation
+## Poster Presentations
 
 **Tilley II, S.**, Sisniega, A., Siewerdsen, J. H., and Stayman, J. W.
 **(2018)** “High-fidelity modeling of detector lag and gantry motion in
@@ -157,14 +183,30 @@ CT* pp: 363-367, PMCID:
 
 ## Coauthor
 
-Mahmood, F., Borders, D., Chen, R., Nishioka, N. S., **Tilley II, S.**,
-Stayman, J. W., and Durr, N. J. **(2019)** “Robust photometric stereo
-endoscopy via deep learning trained on synthetic data” *SPIE Photonics
-West BIOS (accepted)*
-
 Tivnan, M., **Tilley II, S.**, and Stayman, J. W. **(2019)** “Physical
 modeling and performance of spatial-spectral filters for CT material
-decomposition” *SPIE Medical Imaging (accepted)*
+decomposition” *SPIE Medical Imaging* Vol: 10948, pp: 312 - 317, DOI:
+[10.1117/12.2513481](https://doi.org/10.1117/12.2513481)
+
+Tivnan, M., Wang, W., **Tilley II, S.**, Siewerdsen, J. H., and Stayman,
+J. W. **(2019)** “Optimized spatial-spectral CT for multi-material
+decomposition” *15th international meeting on fully three-dimensional
+image reconstruction in radiology and nuclear medicine* Vol: 11072, pp:
+172 - 176, DOI: [10.1117/12.2534333](https://doi.org/10.1117/12.2534333)
+
+Liu, S. Z., **Tilley II, S.**, Cao, Q., Siewerdsen, J. H., Stayman, J.
+W., and Zbijewski, W. **(2019)** “Known-component model-based material
+decomposition for dual energy imaging of bone compositions in the
+presence of metal implant” *15th international meeting on fully
+three-dimensional image reconstruction in radiology and nuclear
+medicine* Vol: 11072, pp: 182 - 186, DOI:
+[10.1117/12.2534725](https://doi.org/10.1117/12.2534725)
+
+Wang, W., **Tilley II, S.**, Tivnan, M., and Stayman, J. W. **(2019)**
+“Local response prediction in model-based CT material decomposition”
+*15th international meeting on fully three-dimensional image
+reconstruction in radiology and nuclear medicine* Vol: 11072, pp: 162 -
+166, DOI: [10.1117/12.2534437](https://doi.org/10.1117/12.2534437)
 
 Stayman, J. W. and **Tilley II, S.** **(2018)** “Model-based
 multi-material decomposition using spatial-spectral filters” *Proc. 5th
@@ -228,7 +270,7 @@ Mtg. Fully 3D Image Recon. in Radiology and Nuc. Med.* pp: 276-279,
 
 # Conference Abstracts
 
-## Oral Presentation
+## Oral Presentations
 
 **Tilley II, S.** and Stayman, J. W. **(2018)** “Model-based material
 decomposition for acquisitions with relaxed spectral and spatial
@@ -237,6 +279,23 @@ Meeting*
 [link](https://w3.aapm.org/meetings/2018AM/programInfo/programAbs.php?sid=7548&aid=40935)
 
 ## Coauthor
+
+Mahmood, F., Borders, D., Chen, R., Sweer, J., **Tilley II, S.**,
+Nishioka, N. S., Stayman, J. W., and Durr, N. J. **(2019)** “Robust
+photometric stereo endoscopy via deep learning trained on synthetic
+data” *Multimodal biomedical imaging XIV* Vol: 10871, DOI:
+[10.1117/12.2509878](https://doi.org/10.1117/12.2509878)
+
+Wang, W., Tivnan, M., Gang, G. J., **Tilley II, S.**, and Stayman, J. W.
+**(2019)** “Generalized local impulse response prediction in model-based
+material decomposition of spectral CT” *The American Association of
+Physicists in Medicine Annual Meeting*
+[link](https://w3.aapm.org/meetings/2019AM/programInfo/programAbs.php?t=specific&shid%5B%5D=1485&shidDesc=Young%20Investigators%20Symposium&sid=7994&aid=44687)
+
+Tivnan, M., Wang, W., **Tilley II, S.**, and Stayman, J. W. **(2019)**
+“Designing Spatial-Spectral Fitlers for Spectral CT” *The American
+Association of Physicists in Medicine Annual Meeting (submitted)*
+[link](https://w3.aapm.org/meetings/2019AM/programInfo/programAbs.php?sid=8008&aid=46979)
 
 Zbijewski, W., Cao, Q., Brehler, M., **Tilley II, S.**, Sisniega, A.,
 Stayman, J. W., and Siewerdsen, J. H. **(2018)** “High-resolution
@@ -251,7 +310,7 @@ multiphoton microscopy” *SPIE Photonics Europe*
 
 # Invited Talks and Seminars
 
-## Oral Presentation
+## Oral Presentations
 
 **Tilley II, S.** **(2018)** “Improving image quality and accuracy in
 flat-panel cone-beam CT using model-based iterative reconstruction with
@@ -272,14 +331,18 @@ imaging” *SIAM Conference on Imaging Science*
 
 # Other Presentations
 
-## Oral Presentation
+## Oral Presentations
+
+**Tilley II, S.** and Paus, T. **(2019)** “Comparing two tissue
+classification algorithms for MRI image analysis” *Canada-Norway Summer
+School*
 
 **Tilley II, S.**, Siewerdsen, J. H., and Stayman, J. W. **(2015)**
 “High resolution CBCT with blur and correlated noise models in a
 non-linear reconstruction algorithm” *The 5th Annual Hopkins Imaging
 Conference, Johns Hopkins University*
 
-## Poster Presentation
+## Poster Presentations
 
 **Tilley II, S.** and Schaffer, C. B. **(2011)** “Construction of a high
 efficiency four channel 2 photon excited fluorescence microscope” *26th
@@ -379,9 +442,8 @@ Research Award</td>
 
 ## Peer Review
 
-|      |                                             |
-| :--- | :------------------------------------------ |
-| 2018 | IEEE Transactions on Biomedical Engineering |
+  - IEEE Transactions on Biomedical Engineering
+  - Computers in Biology and Medicine
 
 ## Activities
 
@@ -391,10 +453,10 @@ Research Award</td>
 
 ## Memberships
 
-|      |                                                    |
-| :--- | :------------------------------------------------- |
-| 2018 | American Association of Physicists in Medicine     |
-| 2016 | The International Society for Optics and Photonics |
+|      |                                                   |
+| :--- | :------------------------------------------------ |
+| 2018 | Institute of Electrical and Electronics Engineers |
+| 2018 | American Association of Physicists in Medicine    |
 
 # Teaching Experience
 

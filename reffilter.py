@@ -2,26 +2,29 @@ from datetime import datetime
 import sys
 import yaml
 
-STRUCTURE = (('Journal Articles', ['journal'],
+STRUCTURE = (('Theses', ['thesis'],
+                 ()
+             ),
+             ('Journal Articles', ['journal'],
                   ()
               ),
              ('Conference Publications', ['proceedings'],
-                  (('Oral Presentation', ['oral'], ()),
-                   ('Poster Presentation', ['poster'], ()),
+                  (('Oral Presentations', ['oral'], ()),
+                   ('Poster Presentations', ['poster'], ()),
                    ('Coauthor', [], ())),
               ),
              ('Conference Abstracts', ['abstract'],
-                  (('Oral Presentation', ['oral'], ()),
+                  (('Oral Presentations', ['oral'], ()),
                    # ('Poster Presentation', ['poster'], ()),
                    ('Coauthor', [], ())),
               ),
              ('Invited Talks and Seminars', ['seminarorinvited'],
-                  (('Oral Presentation', ['oral'], ()),
+                  (('Oral Presentations', ['oral'], ()),
                    ('Coauthor', [], ())),
               ),
              ('Other Presentations', ['other'],
-                  (('Oral Presentation', ['oral'], ()),
-                   ('Poster Presentation', ['poster'], ()))
+                  (('Oral Presentations', ['oral'], ()),
+                   ('Poster Presentations', ['poster'], ()))
               ),
              ('Patents', ['patent'], ())
              )
@@ -150,6 +153,27 @@ def _fmt_url(url):
         return '', None
 
 
+def _fmt_degree(degree):
+    if degree == 'PhD':
+        return r'Ph.D. Dissertation', ', '
+    elif degree == 'BS':
+        return r'Undegrated Honors Thesis', ', '
+    else:
+        raise RuntimeError('Unsupported degree')
+
+
+def _fmt_department(dept):
+    return dept, ', '
+
+
+def _fmt_school(school):
+    return school, ', '
+
+
+def _fmt_location(loc):
+    return loc, ', '
+
+
 def _sort_key(ref):
     issued = ref['issued'][0]
     return datetime(issued['year'], issued.get('month', 1), issued.get('day', 1))
@@ -187,6 +211,15 @@ if __name__ == '__main__':
                             _print_wrapper(_fmt_issued(ref.get('issued', [])), outstrlist)
                             _print_wrapper(_fmt_title(ref.get('title', '')), outstrlist)
                             _print_wrapper(_fmt_patent_num(ref.get('number', '')), outstrlist)
+                            _print_wrapper(_fmt_url(ref.get('URL', '')), outstrlist)
+                        elif ref['type'] == 'thesis':
+                            _print_wrapper(_fmt_authors(ref.get('author', [])), outstrlist)
+                            _print_wrapper(_fmt_issued(ref.get('issued', [])), outstrlist)
+                            _print_wrapper(_fmt_title(ref.get('title', '')), outstrlist)
+                            _print_wrapper(_fmt_degree(ref.get('degree')), outstrlist)
+                            _print_wrapper(_fmt_department(ref.get('department')), outstrlist)
+                            _print_wrapper(_fmt_school(ref.get('school')), outstrlist)
+                            _print_wrapper(_fmt_location(ref.get('location')), outstrlist)
                             _print_wrapper(_fmt_url(ref.get('URL', '')), outstrlist)
                         else:
                             _print_wrapper(_fmt_authors(ref.get('author', [])), outstrlist)

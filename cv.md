@@ -1,11 +1,6 @@
 ---
 title: Steven Tilley
 documentclass: article
-geometry:
-    - left=1.0788in
-    - right=1in
-    - top=1in
-    - bottom=1in
 urlcolor: blue
 subparagraph: yes
 ---
@@ -14,37 +9,36 @@ subparagraph: yes
 Current Position
 ================
 
-Ph.D. Candidate  
-AIAI Lab, Johns Hopkins University  
-Baltimore, MD 21205
+Imaging Analyst  
+Holland Bloorview Kids Rehabilitation Hospital  
+Toronto, ON, M4G 1R8
 
 
 Contact Information
 ===================
 
-Phone: 401-447-8641  
+Phone: 647-627-8641  
 Email: [steve@steventilley.com](mailto:steve@steventilley.com)
 
 
 Summary
 =======
 
-I have been an imaging researcher since 2009, and have experience in tomographic
-reconstruction, the design, construction, and characterization of imaging
-systems, software-hardware interfacing, and image processing. My graduate
-research has been on CT reconstruction algorithms, where I improve image quality
-by combining advanced statistical and physical models with custom optimization
-algorithms. As an undergraduate I worked on design and construction of novel
-multiphoton microscopes.
+I have been an imaging researcher since 2009, and have experience in
+tomographic reconstruction, the design, construction, and
+characterization of imaging systems, software-hardware interfacing,
+image processing, and developing pipelines for large scale image
+analysis.
 
 Education
 =========
 
 -----------------  ----------------         ------------------------------------------------------------------
-2018 (expected)    Ph.D., Biomedical \      Johns Hopkins University, Baltimore, MD \
-                   Engineering              Thesis Title (tentative): _Improving CT image quality and
-                                            accuracy using model-based iterative reconstruction with high-fidelity
-                                            system and noise models_ \
+2019               Ph.D., Biomedical \      Johns Hopkins University, Baltimore, MD \
+                   Engineering              Thesis Title: _High-quality computed
+                                            tomography using
+                                            advanced model-based iterative
+                                            reconstruction_ \
                                             Thesis Advisor: J. Webster Stayman
 
 2012               B.S., Biological \       Cornell University, Ithaca, NY \
@@ -59,7 +53,16 @@ Professional Experience
 =======================
 
 -----------------  ----------------         ------------------------------------------------------------------
-2012-Present       Graduate Researcher      I-STAR Lab and AIAI Lab \
+2020-present       X-Ray Imaging \          KA Imaging, Waterloo, ON
+                   System and \
+                   Algorithm Developer
+
+2019-2020          Imaging Analyst          Population Neuroscience & Developmental Neuroimaging \
+                                            Bloorview Research Institute \
+                                            Holland Bloorview Kids Rehabilitation Hospital, Toronto, ON \
+                                            Supervisor: Tomáš Paus
+
+2012-2019          Graduate Researcher      I-STAR Lab and AIAI Lab \
                                             Department of Biomedical Engineering \
                                             Johns Hopkins University, Baltimore, MD \
                                             Advisor: J. Webster Stayman, Rotation Advisors:
@@ -78,6 +81,39 @@ Professional Experience
 
 ---
 references:
+- id: TilleyPhDThesis2019
+  type: thesis
+  title: >-
+    High-quality computed tomography using advanced model-based iterative reconstruction
+  author:
+    - family: Tilley II
+      given: Steven
+  issued:
+    - year: 2019
+  tags:
+    - thesis
+  degree: PhD
+  department: Department of Biomedical Engineering
+  school: Johns Hopkins University
+  location: Baltimore, MD
+  URL: https://jscholarship.library.jhu.edu/handle/1774.2/61473
+
+- id: TilleyBSThesis2012
+  type: thesis
+  title: >-
+    Construction and assessment of a high performance four channel multiphoton microscope for deep imaging
+  author:
+    - family: Tilley II
+      given: Steven
+  issued:
+    - year: 2012
+  tags:
+    - thesis
+  degree: BS
+  department: Department of Biological and Environmental Engineering
+  school: Cornell University
+  location: Ithaca, NY
+
 - id: TilleyII2015a
   type: article-journal
   title: >-
@@ -148,7 +184,7 @@ references:
   title: >-
     Model-based material decomposition with a penalized nonlinear least-squares
     CT reconstruction algorithm
-  container-title: Physics in Medicine and Biology (in review)
+  container-title: Physics in Medicine and Biology
   author:
     - family: Tilley II
       given: Steven
@@ -160,6 +196,31 @@ references:
     - year: 2018
   tags:
     - journal
+  URL: https://steventilley.com/Tilley_Model-based_2018.pdf
+  DOI: 10.1088/1361-6560/aaf973
+
+- id: HehnPMB2019
+  type: article-journal
+  title: >-
+    Blind deconvolution in model-based iterative reconstruction for
+    CT using a normalized sparsity measure
+  container-title: Physics in Medicine and Biology
+  author:
+    - family: Hehn
+      given: Lorenz
+    - family: Tilley II
+      given: Steven
+    - family: Pfeiffer
+      given: Franz
+    - family: Stayman
+      given: J Webster
+  issued:
+    - year: 2019
+  volume: 64
+  DOI: 10.1088/1361-6560/ab489e
+  tags:
+    - journal
+
 
 - id: Tilley2015
   type: paper-conference
@@ -238,41 +299,16 @@ references:
     - proceedings
     - oral
 
-- id: faisal
+- id: 10.1117/12.2513481
   type: paper-conference
   title: >-
-    Robust photometric stereo endoscopy via deep learning trained on
-    synthetic data
-  container-title: SPIE Photonics West BIOS (accepted)
-  publisher: International Society for Optics and Photonics
-  author:
-    - family: Mahmood
-      given: Faisal
-    - given: Daniel
-      family: Borders
-    - given: Richard
-      family: Chen
-    - given: Norman S.
-      family: Nishioka
-    - given: Steven
-      family: Tilley II
-    - given: J. Webster
-      family: Stayman
-    - given: Nicholas J.
-      family: Durr
-  issued:
-    - year: 2019
-  publisher-place: 'San Francisco, CA'
-  tags:
-    - proceedings
-
-- id: tivnan
-  type: paper-conference
-  title: >-
-    Physical modeling and performance of spatial-spectral
-    filters for CT material decomposition
-  container-title: SPIE Medical Imaging (accepted)
-  publisher: International Society for Optics and Photonics
+    Physical modeling and performance of spatial-spectral filters for CT
+    material decomposition
+  container-title: SPIE Medical Imaging
+  publisher: SPIE
+  page: 312 - 317
+  volume: 10948
+  DOI: 10.1117/12.2513481
   author:
     - family: Tivnan
       given: Matthew
@@ -280,11 +316,56 @@ references:
       given: Steven
     - family: Stayman
       given: J. Webster
+  editor:
+    - family: Schmidt
+      given: Taly Gilat
+    - family: Chen
+      given: Guang-Hong
+    - family: Bosmans
+      given: Hilde
   issued:
     - year: 2019
-  publisher-place: 'San Diego, CA'
   tags:
     - proceedings
+    
+    
+- id: 10.1117/12.2509878
+  type: paper-conference
+  title: >-
+    Robust photometric stereo endoscopy via deep learning trained on synthetic
+    data
+  container-title: Multimodal biomedical imaging XIV
+  publisher: SPIE
+  volume: '10871'
+  DOI: 10.1117/12.2509878
+  author:
+    - family: Mahmood
+      given: Faisal
+    - family: Borders
+      given: Daniel
+    - family: Chen
+      given: Richard
+    - family: Sweer
+      given: Jordan
+    - family: Tilley II
+      given: Steven
+    - family: Nishioka
+      given: Norman S.
+    - family: Stayman
+      given: J. Webster
+    - family: Durr
+      given: Nicholas J.
+  editor:
+    - family: Azar
+      given: Fred S.
+    - family: Intes
+      given: Xavier
+    - family: Fang
+      given: Qianqian
+  issued:
+    - year: 2019
+  tags:
+    - abstract
 
 - id: StaymanIntegrationComponentKnowledge2014
   type: paper-conference
@@ -765,7 +846,48 @@ references:
   URL: 'https://spie.org/EPE16/conferencedetails/biophotonics-photonic-solutions?SSO=1'
   tags:
     - abstract
+    
+- id: WangAAPM2019
+  type: paper-conference
+  title: >-
+    Generalized local impulse response prediction in model-based material decomposition of spectral CT
+  container-title: The American Association of Physicists in Medicine Annual Meeting
+  author:
+    - family: Wang
+      given: Wenying
+    - family: Tivnan
+      given: Matthew
+    - family: Gang
+      given: Grace J.
+    - family: Tilley II
+      given: Steven
+    - family: Stayman
+      given: J. Webster
+  issued:
+    - year: 2019
+  URL: https://w3.aapm.org/meetings/2019AM/programInfo/programAbs.php?t=specific&shid[]=1485&shidDesc=Young%20Investigators%20Symposium&sid=7994&aid=44687
+  tags:
+    - abstract
 
+- id: TivnanAAPM2019
+  type: paper-conference
+  title: >-
+    Designing Spatial-Spectral Fitlers for Spectral CT
+  container-title: The American Association of Physicists in Medicine Annual Meeting (submitted)
+  author:
+    - family: Tivnan
+      given: Matthew
+    - family: Wang
+      given: Wenying
+    - family: Tilley II
+      given: Steven
+    - family: Stayman
+      given: J. Webster
+  issued:
+    - year: 2019
+  URL: https://w3.aapm.org/meetings/2019AM/programInfo/programAbs.php?sid=8008&aid=46979
+  tags:
+    - abstract
 
 - id: TilleyIIModelBasedMaterialDecomposition2018
   type: paper-conference
@@ -874,6 +996,21 @@ references:
   tags:
     - oral
     - other
+    
+- id: TilleyHBSummerSchool2019
+  type: speech
+  title: Comparing two tissue classification algorithms for MRI image analysis
+  event: Canada-Norway Summer School
+  author:
+    - family: Tilley II
+      given: Steven
+    - family: Paus
+      given: Tomáš
+  issued:
+    - year: 2019
+  tags:
+    - oral
+    - other
 
 - id: TilleyII2011
   type: poster
@@ -922,6 +1059,103 @@ references:
         - 19
   tags:
     - patent
+
+- id: 10.1117/12.2534333
+  type: paper-conference
+  title: Optimized spatial-spectral CT for multi-material decomposition
+  container-title: >-
+    15th international meeting on fully three-dimensional image reconstruction
+    in radiology and nuclear medicine
+  publisher: SPIE
+  page: 172 - 176
+  volume: '11072'
+  DOI: 10.1117/12.2534333
+  author:
+    - family: Tivnan
+      given: Matthew
+    - family: Wang
+      given: Wenying
+    - family: Tilley II
+      given: Steven
+    - family: Siewerdsen
+      given: Jeffrey H.
+    - family: Stayman
+      given: J. Webster
+  editor:
+    - family: Matej
+      given: Samuel
+    - family: Metzler
+      given: Scott D.
+  issued:
+    - year: 2019
+  tags:
+    - proceedings
+    
+    
+- id: 10.1117/12.2534725
+  type: paper-conference
+  title: >-
+    Known-component model-based material decomposition for dual energy imaging
+    of bone compositions in the presence of metal implant
+  container-title: >-
+    15th international meeting on fully three-dimensional image reconstruction
+    in radiology and nuclear medicine
+  publisher: SPIE
+  page: 182 - 186
+  volume: '11072'
+  DOI: 10.1117/12.2534725
+  author:
+    - family: Liu
+      given: S. Z.
+    - family: Tilley II
+      given: Steven
+    - family: Cao
+      given: Q.
+    - family: Siewerdsen
+      given: J. H.
+    - family: Stayman
+      given: J. W.
+    - family: Zbijewski
+      given: W.
+  editor:
+    - family: Matej
+      given: Samuel
+    - family: Metzler
+      given: Scott D.
+  issued:
+    - year: 2019
+  tags:
+    - proceedings
+    
+    
+- id: 10.1117/12.2534437
+  type: paper-conference
+  title: Local response prediction in model-based CT material decomposition
+  container-title: >-
+    15th international meeting on fully three-dimensional image reconstruction
+    in radiology and nuclear medicine
+  publisher: SPIE
+  page: 162 - 166
+  volume: '11072'
+  DOI: 10.1117/12.2534437
+  author:
+    - family: Wang
+      given: Wenying
+    - family: Tilley II
+      given: Steven
+    - family: Tivnan
+      given: Matthew
+    - family: Stayman
+      given: J. Webster
+  editor:
+    - family: Matej
+      given: Samuel
+    - family: Metzler
+      given: Scott D.
+  issued:
+    - year: 2019
+  tags:
+    - proceedings
 ---
 
 
@@ -993,23 +1227,13 @@ Professional Activities and Memberships
 
 ## Peer Review
 
---------------  ----------------------------------------------------------------------------------
-2018            IEEE Transactions on Biomedical Engineering
-
---------------  ----------------------------------------------------------------------------------
+- IEEE Transactions on Biomedical Engineering
+- Computers in Biology and Medicine
+- Human Brain Mapping
 
 ## Activities
 --------------  ----------------------------------------------------------------------------------
 2013            Director of the 3rd Annual Hopkins Imaging Conference, Baltimore, MD 
-
---------------  ----------------------------------------------------------------------------------
-
-## Memberships
-
---------------  ----------------------------------------------------------------------------------
-2018            American Association of Physicists in Medicine
-
-2016            The International Society for Optics and Photonics
 
 --------------  ----------------------------------------------------------------------------------
 

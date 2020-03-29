@@ -18,17 +18,19 @@ cv.pdf : cv.tex
 cv_html.pdf : cvproc.md cv_pdf.css
 	pandoc cvproc.md --to html -s -H cv_pdf.css -o cv_html.pdf
 
-cv.tex : cvproc.md cvpreamble.tex
-	cat cvpreamble2.tex > cv.tex
-	pandoc cvproc.md --to latex >> cv.tex
-	sed -i '/^\\begin{longtable}/i\{\\rowcolors{1}{white}{white!70!black!30}' cv.tex
-	sed -i '/^\\end{longtable}/a\}' cv.tex
-	sed -i '/^\\toprule$$/d' cv.tex
-	sed -i '/^\\midrule$$/d' cv.tex
-	sed -i '/^\\bottomrule$$/d' cv.tex
-	sed -i '/^\\endhead$$/d' cv.tex
-	sed -i '/^\\usepackage{xcolor}$$/c\\\usepackage[table]{xcolor}' cv.tex
-	echo "\\end{document}" >> cv.tex
+cv.tex : cvproc.md
+	pandoc -s cvproc.md --to latex > cv.tex
+# cv.tex : cvproc.md cvpreamble.tex
+# 	cat cvpreamble2.tex > cv.tex
+# 	pandoc cvproc.md --to latex >> cv.tex
+# 	sed -i '/^\\begin{longtable}/i\{\\rowcolors{1}{white}{white!70!black!30}' cv.tex
+# 	sed -i '/^\\end{longtable}/a\}' cv.tex
+# 	sed -i '/^\\toprule$$/d' cv.tex
+# 	sed -i '/^\\midrule$$/d' cv.tex
+# 	sed -i '/^\\bottomrule$$/d' cv.tex
+# 	sed -i '/^\\endhead$$/d' cv.tex
+# 	sed -i '/^\\usepackage{xcolor}$$/c\\\usepackage[table]{xcolor}' cv.tex
+# 	echo "\\end{document}" >> cv.tex
 
 cv.odt : cvproc.md
 	pandoc cvproc.md --to odt -o cv.odt
