@@ -1,12 +1,12 @@
 # Current Position
 
-Imaging Analyst  
-Holland Bloorview Kids Rehabilitation Hospital  
-Toronto, ON, M4G 1R8
+X-Ray Imaging System and Algorithm Developer  
+KA Imaging  
+Waterloo, ON
 
 # Contact Information
 
-83 Florence Ave Toronto, ON, M2N 1G2 Phone: 647-627-8641  
+Phone: 647-627-8641  
 Email: <steve@steventilley.com>
 
 # Summary
@@ -55,14 +55,21 @@ Thesis Advisor: Chris Schaffer</td>
 </colgroup>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">2019-present</td>
+<td style="text-align: left;">2020-present</td>
+<td style="text-align: left;">X-Ray Imaging<br />
+System and<br />
+Algorithm Developer</td>
+<td style="text-align: left;">KA Imaging, Waterloo, ON</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2019-2020</td>
 <td style="text-align: left;">Imaging Analyst</td>
 <td style="text-align: left;">Population Neuroscience &amp; Developmental Neuroimaging<br />
 Bloorview Research Institute<br />
 Holland Bloorview Kids Rehabilitation Hospital, Toronto, ON<br />
 Supervisor: Tomáš Paus</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">2012-2019</td>
 <td style="text-align: left;">Graduate Researcher</td>
 <td style="text-align: left;">I-STAR Lab and AIAI Lab<br />
@@ -70,7 +77,7 @@ Department of Biomedical Engineering<br />
 Johns Hopkins University, Baltimore, MD<br />
 Advisor: J. Webster Stayman, Rotation Advisors: Wojciech Zbijewski, Natalia Trayanova</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">2012</td>
 <td style="text-align: left;">Temporary Service<br />
 Technician</td>
@@ -78,7 +85,7 @@ Technician</td>
 Cornell University, Ithaca, NY<br />
 Supervisor: Chris Schaffer</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">2009-2012</td>
 <td style="text-align: left;">Undergraduate Researcher</td>
 <td style="text-align: left;">Schaffer Lab<br />
@@ -344,16 +351,20 @@ Conference, Johns Hopkins University*
 
 ## Poster Presentations
 
+Liao, Z., **Tilley II, S.**, Khairullah, A., and Paus, T. **(2020)** “An
+Interplay Between Pubertal and Adult Testosterone and Brain Response to
+Faces in Young Men” *Organization for Human Brain Mapping*
+
 **Tilley II, S.** and Schaffer, C. B. **(2011)** “Construction of a high
 efficiency four channel 2 photon excited fluorescence microscope” *26th
 Annual Undergraduate Spring Research Forum, Cornell University*
 
 # Patents
 
-Bares, A. J., Schaffer, C. B., and **Tilley II, S.** **(2018)**
+Bares, A. J., Schaffer, C. B., and **Tilley, S.** **(2019)**
 “Hyperspectral multiphoton microscope for biomedical applications”
-U.S. Patent 20180196246A1
-[link](https://patents.google.com/patent/US20180196246A1/en)
+U.S. Patent 10394008B2
+[link](https://patents.google.com/patent/US10394008B2/en)
 
 # Funding and Awards
 
@@ -444,19 +455,13 @@ Research Award</td>
 
   - IEEE Transactions on Biomedical Engineering
   - Computers in Biology and Medicine
+  - Human Brain Mapping
 
 ## Activities
 
 |      |                                                                      |
 | :--- | :------------------------------------------------------------------- |
 | 2013 | Director of the 3rd Annual Hopkins Imaging Conference, Baltimore, MD |
-
-## Memberships
-
-|      |                                                   |
-| :--- | :------------------------------------------------ |
-| 2018 | Institute of Electrical and Electronics Engineers |
-| 2018 | American Association of Physicists in Medicine    |
 
 # Teaching Experience
 

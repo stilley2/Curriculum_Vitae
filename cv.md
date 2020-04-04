@@ -1158,6 +1158,30 @@ references:
     - year: 2019
   tags:
     - proceedings
+
+- id: Liao2019
+  type: poster
+  title: >-
+     An Interplay Between Pubertal and Adult Testosterone and Brain Response to Faces in Young Men
+  event: Organization for Human Brain Mapping (accepted)
+  place: Montreal, QB
+  author:
+    - family: Liao
+      given: Zhijie
+    - family: Tilley II
+      given: Steven
+    - family: Khairullah
+      given: Ammar
+    - family: Paus
+      given: Tomas
+  issued:
+    - year: 2020
+  extra:
+    - poster
+  tags:
+    - poster
+    - other
+
 ---
 
 
